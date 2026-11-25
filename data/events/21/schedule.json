@@ -1,0 +1,165 @@
+{
+ "seed": 20261146,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "夕雲雀",
+   "yomi": "ゆうひばり",
+   "bu": "春",
+   "dai_by": "fable",
+   "dai_note": "暮れゆく野の空に揚がり、声ばかり残して落ちる雲雀の哀れを詠む。",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 2,
+   "dai": "雲雀揚野",
+   "yomi": "ひばりののにあがる",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "うららかな春の野から空高く揚がる雲雀の声と姿を、見上げる心とともに詠む。",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 3,
+   "dai": "夏夜遠雷",
+   "yomi": "かやとおいかづち",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "寝苦しい夏の夜、遠くに鳴る雷の気配と、雨を待つ心。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 4,
+   "dai": "海辺月",
+   "yomi": "かいへんのつき",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "浦の波間に砕け、また澄みのぼる秋の月を、潮の香とともに眺める。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 5,
+   "dai": "秋田仮庵",
+   "yomi": "あきのたのかりいほ",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "稲を守る仮庵の夜、苫の隙から漏る露や月に、田守の寂しさを詠む。",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 6,
+   "dai": "秋田稲葉",
+   "yomi": "あきたのいなば",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "実りの田の稲葉を渡る風の音に、秋の深まりを聞く。",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 7,
+   "dai": "木枯",
+   "yomi": "こがらし",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "木の葉を払い尽くす風の音と、その後に残る梢の空の寂しさを詠む。",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 8,
+   "dai": "冬庭寒梅",
+   "yomi": "ふゆにはのかんばい",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "雪の庭に早く綻ぶ梅の蕾に、春を待つ思いを重ねる。",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 9,
+   "dai": "雪中鷹狩",
+   "yomi": "せっちゅうのたかがり",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "降りしきる雪の野に鷹を放つ狩人の勇みと、白一色の景の厳しさを詠む。",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 10,
+   "dai": "寄月恨恋",
+   "yomi": "つきによせてうらむるこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "訪れぬ人を待つ夜、澄む月に恨みを託す伝統的な寄物の恋。",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 11,
+   "dai": "寄帯恋",
+   "yomi": "おびによするこい",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "結び解く帯に、契りの固さやほどけゆく仲の行方を寄せて詠む。",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 12,
+   "dai": "雨宿りに逢ふ恋",
+   "yomi": "あまやどりにあふこい",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "にわか雨の軒下でたまさかに行き合った人への、晴れ間を惜しむほどの思いを詠む。",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 13,
+   "dai": "傘を貸して別るる恋",
+   "yomi": "かさをかしてわかるるこい",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "雨の別れ際に貸した傘ひとつを、再び逢う頼みとも形見ともする新味の結題。",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 14,
+   "dai": "旅路月影",
+   "yomi": "たびじのつきかげ",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "見知らぬ道で仰ぐ月に、故郷と同じ光を見出す旅の心。",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 15,
+   "dai": "海上漁火",
+   "yomi": "かいしょうのいさりび",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "夜の沖に点る漁火の遠さに、世を渡る営みと旅の心細さを重ねる。",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 16,
+   "dai": "柱に残る背くらべ",
+   "yomi": "はしらにのこるせくらべ",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "古家の柱に刻まれた幼き日の丈の跡に、過ぎた歳月と人を偲ぶ懐旧を詠む。",
+   "left": "fable",
+   "right": "opus"
+  }
+ ]
+}
