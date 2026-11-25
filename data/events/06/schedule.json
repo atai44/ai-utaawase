@@ -1,0 +1,165 @@
+{
+ "seed": 20261131,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "雪間若草",
+   "yomi": "ゆきまのわかくさ",
+   "bu": "春",
+   "dai_by": "fable",
+   "dai_note": "消え残る雪のあいだに萌え出る草の、かすかな春の兆しを詠む",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 2,
+   "dai": "雪中早梅",
+   "yomi": "せっちゅうのそうばい",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "残る雪の白さの中に、まだ見分けがたい梅の初花を見出す。色と香の取り合わせ。",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 3,
+   "dai": "帰雁幽",
+   "yomi": "きがんかすかなり",
+   "bu": "春",
+   "dai_by": "fable",
+   "dai_note": "花を見捨てて北へ帰る雁の、声も姿も遠くかすかになるあわれ",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 4,
+   "dai": "樹陰納涼",
+   "yomi": "じゅいんのうりょう",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "炎暑の道を行き、木陰に立ち寄って涼をとる。一時の安らぎをどう詠むか。",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 5,
+   "dai": "鵜川篝火",
+   "yomi": "うかわのかがりび",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "夏の夜の川面に映る篝火の明るさと、その下の闇の深さ",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 6,
+   "dai": "蝉声近秋",
+   "yomi": "せみのこゑあきにちかし",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "盛りの蝉の声のうちに、はや秋の気配を聞きとる心",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 7,
+   "dai": "野分朝",
+   "yomi": "のわきのあした",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "嵐の過ぎた翌朝の野や庭。荒れた後の静けさと澄んだ秋気を捉える、やや新味の結題。",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 8,
+   "dai": "露置く庭の秋風",
+   "yomi": "つゆおくにわのあきかぜ",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "露を散らして吹く秋風の庭の情景",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 9,
+   "dai": "駒迎",
+   "yomi": "こまむかへ",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "逢坂の関に望月の駒を迎える、古き秋の行事の面影",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 10,
+   "dai": "歳暮",
+   "yomi": "さいぼ",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "暮れゆく年を惜しみ、老いや来し方を思う。伝統題として述懐の深みを問う。",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 11,
+   "dai": "冬朝鐘",
+   "yomi": "ふゆのあさのかね",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "凍てつく朝に響く鐘の音の澄む心地",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 12,
+   "dai": "寄関恋",
+   "yomi": "せきによするこい",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "逢坂・白河などの関を、人目や隔てのしるしとして恋を詠む。歌枕の扱いが見どころ。",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 13,
+   "dai": "文字消えゆく恋",
+   "yomi": "もじきえゆくこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "涙に滲み薄れゆく文字に重ねる思い",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 14,
+   "dai": "海路眺望",
+   "yomi": "かいろのちょうぼう",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "舟路から見渡す島々や浦の景。旅の心細さと眺めの広がりを詠む。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 15,
+   "dai": "閑居友",
+   "yomi": "かんきょのとも",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "閑居の身に訪れる友、また友なき静けさ",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 16,
+   "dai": "海路暁雲",
+   "yomi": "かいろのあかつきのくも",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "船旅の明け方、沖にたなびく雲に行く末と都を思う",
+   "left": "haiku",
+   "right": "haiku"
+  }
+ ]
+}
