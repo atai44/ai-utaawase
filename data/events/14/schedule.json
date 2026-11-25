@@ -1,0 +1,165 @@
+{
+ "seed": 20261139,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "山家春雨",
+   "yomi": "さんかのはるさめ",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "人の訪れない山里で、音もなく降る春雨の中に芽吹きを聞く。",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 2,
+   "dai": "春雨濡花",
+   "yomi": "はるさめはなをぬらす",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "しとしとと降る春雨に濡れる花の風情を詠む。",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 3,
+   "dai": "更衣",
+   "yomi": "ころもがえ",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "卯月一日、花の色に染めた袂を脱ぐ名残と、夏を迎える軽さ。",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 4,
+   "dai": "夏衣薄",
+   "yomi": "なつごろもうすし",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "衣替えののち、薄衣に感じる夏の訪れと涼気を詠む。",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 5,
+   "dai": "秋風旅人",
+   "yomi": "あきかぜたびびと",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "秋風の身にしむ道を行く旅人の心細さを詠む。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 6,
+   "dai": "星合の空",
+   "yomi": "ほしあひのそら",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "七夕の一夜、逢う星を仰ぐ地上の人の思いを空に託して。",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 7,
+   "dai": "沢辺鴫",
+   "yomi": "さはべのしぎ",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "夕暮れの沢に鴫の立つ羽音、あとに深まる秋のあはれを。",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 8,
+   "dai": "冬夜神楽",
+   "yomi": "ふゆのよのかぐら",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "霜冴える夜、庭火の影と遠く聞こえる神楽歌の清らかさを。",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 9,
+   "dai": "雪朝訪友",
+   "yomi": "ゆきのあしたにともをとう",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "降り積もった朝に跡をつけて友を訪ねる興。王子猷の故事を踏まえてもよい。",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 10,
+   "dai": "冬夜聞鐘",
+   "yomi": "ふゆのよるかねをきく",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "冴えた冬の夜に遠く響く鐘の音と物思いを詠む。",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 11,
+   "dai": "寄鐘別恋",
+   "yomi": "かねによするわかるるこひ",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "暁の鐘に急かされて別れる恋、鐘の音を恨みとも形見とも。",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 12,
+   "dai": "寄露恋",
+   "yomi": "つゆによするこい",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "袖の露、草葉の露にはかない契りと人知れぬ涙を託す。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 13,
+   "dai": "月に問ふ恋",
+   "yomi": "つきにとうこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "言葉にならぬ思いを月に尋ねかける心を詠む。",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 14,
+   "dai": "旅泊聞浪",
+   "yomi": "りょはくになみをきく",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "船泊まりの夜、枕に通う浪の音に都を思う旅寝の心を。",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 15,
+   "dai": "古畳の日向",
+   "yomi": "ふるだたみのひなた",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "古びた住まいの日だまりに、過ぎた歳月を思う新味の結題。",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 16,
+   "dai": "行路夕陽",
+   "yomi": "こうろのせきよう",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "旅路で傾く日を見て、宿の遠さと行く末の心細さを詠む結題。",
+   "left": "opus",
+   "right": "sonnet"
+  }
+ ]
+}

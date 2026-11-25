@@ -43,7 +43,7 @@ def jobs(ev, items):
     if not todo: print("(no jobs pending)")
 
 def used_dai(before):
-    return [r["dai"] for ev in events() if ev < before and os.path.exists(d(ev, "schedule.json"))
+    return [r["dai"] for ev in events() if ev != before and os.path.exists(d(ev, "schedule.json"))
             for r in load(d(ev, "schedule.json"))["rounds"]]
 
 # ---------- stage 1: 題 ----------
