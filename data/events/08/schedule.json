@@ -1,0 +1,165 @@
+{
+ "seed": 20261133,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "早春雪",
+   "yomi": "そうしゅんのゆき",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "春立つ後になお降る雪に、季節の移ろいの揺らぎを詠む",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 2,
+   "dai": "藤波",
+   "yomi": "ふじなみ",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "風にうねる藤の花房を波に見立てる、伝統的な晩春の題",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 3,
+   "dai": "蝉時雨",
+   "yomi": "せみしぐれ",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "降るような蝉の声に、夏の盛りの静けさと暑さを映す",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 4,
+   "dai": "鵜河篝火",
+   "yomi": "うかはのかがりび",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "闇の川瀬に映る鵜舟の篝火の、明るさとはかなさを詠む",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 5,
+   "dai": "新樹",
+   "yomi": "しんじゅ",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "若葉の色の深まりに、初夏のすがすがしさと花なき後の静かな美を見出す。",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 6,
+   "dai": "野分後",
+   "yomi": "のわきのあと",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "嵐の過ぎた朝の荒れた庭と澄んだ空の対照を詠む",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 7,
+   "dai": "浦曙",
+   "yomi": "うらのあけぼの",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "海辺の夜明けの景、波と空の色の移ろいを捉える新味のある結題。",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 8,
+   "dai": "山家秋月",
+   "yomi": "さんかのしゅうげつ",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "人里離れた山住まいに差す秋の月、孤独と澄明の取り合わせ。",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 9,
+   "dai": "菊の移ろひ",
+   "yomi": "きくのうつろい",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "霜に色変わる晩秋の菊に、老いと美を重ねる",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 10,
+   "dai": "落葉を聞く",
+   "yomi": "おちばをきく",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "時雨かと聞きまがう夜の落葉の音に、冬籠りの寂しさを託す",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 11,
+   "dai": "夕恋",
+   "yomi": "ゆうべのこい",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "暮れゆく空に人を待つ心のたかぶりと心細さを重ねる。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 12,
+   "dai": "寄舟恋",
+   "yomi": "ふねによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "港に繋がれぬ舟、漕ぎ出す舟に寄せて恋の行方を詠む",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 13,
+   "dai": "消し残す名の恋",
+   "yomi": "けしのこすなのこひ",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "別れてなお消せずに手もとに残る名に、絶えぬ未練を詠む新味の題",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 14,
+   "dai": "恨不来恋",
+   "yomi": "こぬをうらむるこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "約束しながら訪れぬ人を待つ恨みと諦めを詠む",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 15,
+   "dai": "寄潮満恋",
+   "yomi": "しほのみつによするこひ",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "満ちてくる潮に、抑えても増さる思いや逢瀬の隔てをよそえる",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 16,
+   "dai": "山居閑日",
+   "yomi": "さんきょかんじつ",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "山里の閑かな日々の暮らしと心のゆとりを詠む",
+   "left": "sonnet",
+   "right": "fable"
+  }
+ ]
+}
