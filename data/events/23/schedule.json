@@ -1,0 +1,165 @@
+{
+ "seed": 20261148,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "海辺霞",
+   "yomi": "かいへんのかすみ",
+   "bu": "春",
+   "dai_by": "fable",
+   "dai_note": "浦も沖も霞にとけて、波の音ばかりが春を告げる海辺の景",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 2,
+   "dai": "夏野行客",
+   "yomi": "なつののこうかく",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "茂る夏草を分けて炎天の野を行く旅人の姿と、その暑さ・遥けさを詠む結題。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 3,
+   "dai": "夏川渡",
+   "yomi": "なつかわのわたり",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "水かさの増した夏の川の瀬を渡る涼しさと心許なさ",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 4,
+   "dai": "紅葉留客",
+   "yomi": "もみぢかくをとどむ",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "帰りを急ぐ客の足が、紅葉の美しさに思わず止まる。人を引き留める景の力を詠む。",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 5,
+   "dai": "月前独坐",
+   "yomi": "げつぜんどくざ",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "秋の月に向かってひとり座す。景よりも、月と向き合う心の静けさを主とする。",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 6,
+   "dai": "関路秋風",
+   "yomi": "せきじのあきかぜ",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "関を越える身に吹く秋風、止められぬものの寂しさ",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 7,
+   "dai": "霜夜聞鶴",
+   "yomi": "しもよにつるをきく",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "冴えわたる霜夜に遠く鶴の声を聞く。冬の寒さと声の澄みを重ねる結題。",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 8,
+   "dai": "遠村時雨",
+   "yomi": "えんそんのしぐれ",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "遠い里だけを濡らして過ぎる時雨を、こなたから眺めやる心",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 9,
+   "dai": "冬池水鳥",
+   "yomi": "ふゆのいけのみずとり",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "凍てそめた池に寄る水鳥の寄る辺なき姿",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 10,
+   "dai": "寄玉恋",
+   "yomi": "たまによするこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "玉の緒・玉匣・涙の玉など、玉にまつわる縁語を生かして恋の命や秘めた思いを詠む。",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 11,
+   "dai": "寄珠恋",
+   "yomi": "たまによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "玉の緒・涙の玉に託して忍ぶ思いを詠む伝統の寄物題",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 12,
+   "dai": "寄笛恋",
+   "yomi": "ふえによするこい",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "笛の音・節・息に託して、届かぬ思いや絶えた仲を詠む",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 13,
+   "dai": "留守を知りつつ訪ふ恋",
+   "yomi": "るすをしりつつとうこい",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "逢えぬと知りながら門まで行かずにいられぬ、やるせない心",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 14,
+   "dai": "借りしままの本",
+   "yomi": "かりしままのほん",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "返しそびれた一冊に残る人の面影と歳月を思う懐旧の題",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 15,
+   "dai": "古き地図をひらく",
+   "yomi": "ふるきちずをひらく",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "今はない道や村の名が記された古地図を前に、過ぎた時と人の営みを偲ぶ新味の題。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 16,
+   "dai": "暁山鐘",
+   "yomi": "あかつきのやまのかね",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "暁の山里に響く鐘に世の無常と静けさを覚える",
+   "left": "haiku",
+   "right": "haiku"
+  }
+ ]
+}

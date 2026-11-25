@@ -1,0 +1,165 @@
+{
+ "seed": 20261150,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "暁鶯",
+   "yomi": "あかつきのうぐいす",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "まだ明けやらぬ闇に初音を聞きとめる、春の訪れの微かさを詠む。",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 2,
+   "dai": "朧月夜",
+   "yomi": "おぼろづきよ",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "霞にかすむ月の柔らかな夜の情趣を詠む伝統的な題",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 3,
+   "dai": "早蕨",
+   "yomi": "さわらび",
+   "bu": "春",
+   "dai_by": "fable",
+   "dai_note": "雪消えの野に萌え出る蕨の、握りしめた拳のような初々しさに春の兆しを見る。",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 4,
+   "dai": "松間月",
+   "yomi": "しょうかんのつき",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "松の枝の隙より漏れる月光の清さと、木の間に見え隠れする趣を詠む。",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 5,
+   "dai": "秋霧晴間",
+   "yomi": "あきぎりはれま",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "立ちこめる霧がふと切れて、景色が現れる一瞬を捉える",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 6,
+   "dai": "夕鵙",
+   "yomi": "ゆふべのもず",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "暮れ方の梢に鋭く鳴く鵙の声。澄んだ秋気と、身にしむ寂しさを聞く。",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 7,
+   "dai": "雪中水仙",
+   "yomi": "せっちゅうすいせん",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "雪の下に香る水仙の清らかさと寒さの対比",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 8,
+   "dai": "寒夜星",
+   "yomi": "かんやのほし",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "冴えわたる冬空の星の鋭い光を、身にしむ寒さとともに詠む。月ならぬ星に冬を見る新味の題。",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 9,
+   "dai": "雪明りの窓",
+   "yomi": "ゆきあかりのまど",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "灯を消してなお白む窓。月もない夜の雪の光と、眠られぬ人の心を結ぶ新味の題。",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 10,
+   "dai": "寄鶏恋",
+   "yomi": "にわとりによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "暁の鶏の声に後朝の別れを惜しむ心を寄せる",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 11,
+   "dai": "寄紅葉恋",
+   "yomi": "もみぢによするこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "色に出づる紅葉や、移ろい散る紅葉に寄せて、忍ぶ思いや心変わりを詠む。",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 12,
+   "dai": "灯ともる窓を見上ぐる恋",
+   "yomi": "ひともるまどをみあぐるこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "訪ねることもできず、恋しい人の窓に灯るあかりを外から見上げるだけの思いを詠む。",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 13,
+   "dai": "見ぬ人を思ふ恋",
+   "yomi": "みぬひとをおもふこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "噂や文のみで知る相手への、まだ見ぬ憧れ",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 14,
+   "dai": "山中瀑布",
+   "yomi": "さんちゅうのたき",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "人跡まれな山奥に落ちる滝の音と白さに、俗を離れた心を託して詠む。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 15,
+   "dai": "杣川筏",
+   "yomi": "そまがはのいかだ",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "山から木を下す筏と筏師。流れの速さ、世を渡る身のはかなさを重ねてもよい。",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 16,
+   "dai": "山中独坐",
+   "yomi": "さんちゅうどくざ",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "山深く独り静かに坐す閑寂と心の澄みゆくさま",
+   "left": "sonnet",
+   "right": "opus"
+  }
+ ]
+}

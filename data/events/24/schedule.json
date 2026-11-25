@@ -1,0 +1,165 @@
+{
+ "seed": 20261149,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "竹間鶯",
+   "yomi": "ちくかんのうぐひす",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "竹の葉ずれにまじる初音。姿は見えず声のみ漏れる春の兆しを詠む。",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 2,
+   "dai": "川辺早蕨",
+   "yomi": "かはべのさわらび",
+   "bu": "春",
+   "dai_by": "fable",
+   "dai_note": "雪解の水のほとりに萌え出づる蕨に、春の兆しのかすかな力を詠む",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 3,
+   "dai": "遅桜",
+   "yomi": "おそざくら",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "盛りを過ぎてなお咲き残る一枝への愛惜",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 4,
+   "dai": "軒菖蒲",
+   "yomi": "のきのあやめ",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "五月の軒に葺く菖蒲の香と雫に、節供の日の家居の情を寄せる",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 5,
+   "dai": "麦秋",
+   "yomi": "ばくしう",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "初夏に黄ばむ麦の穂。季の言葉は秋、時は夏という食い違いの妙を探る。",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 6,
+   "dai": "橋上紅葉",
+   "yomi": "はしのうへのもみぢ",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "橋に散り敷く紅葉。渡る人の足と流れる水との間に秋の深まりを見る。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 7,
+   "dai": "暮天霙",
+   "yomi": "ぼてんのみぞれ",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "雨とも雪ともつかぬ霙の夕暮、定まらぬものの寒さと心細さを主とする",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 8,
+   "dai": "夕霙",
+   "yomi": "ゆふみぞれ",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "雨とも雪ともつかぬ夕べの降り物。定まらぬ空に冬の入りの心細さを託す。",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 9,
+   "dai": "枯柳",
+   "yomi": "かれやなぎ",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "葉を落とした柳が風に揺れる寂しさ",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 10,
+   "dai": "待つと言はで待つ恋",
+   "yomi": "まつといはでまつこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "待つとは口にしない。言葉にしない思いが表に出てしまう、その隙を詠む。",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 11,
+   "dai": "帰る背を見送る恋",
+   "yomi": "かへるせをみおくるこひ",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "別れ際、振り返らぬ後ろ姿を見えずなるまで見送る心。後朝に限らず詠むべし",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 12,
+   "dai": "寄貝恋",
+   "yomi": "かひによするこひ",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "片貝・忘れ貝・うつせ貝など、浜の貝に片思ひや忘れ得ぬ心を托す",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 13,
+   "dai": "寄簾恋",
+   "yomi": "すだれによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "簾越しの気配や隔てに託す思い",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 14,
+   "dai": "社頭杉",
+   "yomi": "しやとうのすぎ",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "神前の老杉。幾世の祈りを見てきた木の姿に、変わらぬことへの祝意を込める。",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 15,
+   "dai": "渡し守",
+   "yomi": "わたしもり",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "川の渡しに暮らす人の日々と行き交う旅人",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 16,
+   "dai": "遠き友を思ふ",
+   "yomi": "とおきとものおもう",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "離れて久しい友への懐旧と便りの待たれる心",
+   "left": "fable",
+   "right": "fable"
+  }
+ ]
+}
