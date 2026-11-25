@@ -62,13 +62,14 @@ h1{font-size:22px;margin:0;font-weight:400;letter-spacing:.15em;color:var(--gold
 .card .mark{position:absolute;top:-4px;left:-4px;width:26px;height:26px;line-height:24px;color:#fff;font-size:15px}
 .left .mark{background:var(--L)} .right .mark{background:var(--R)}
 .card .waka{writing-mode:vertical-rl;font-size:20px;line-height:2.2;letter-spacing:.08em;height:100%;text-align:start}
+.card .waka span{display:block}
 .card.mine::after{content:"";position:absolute;inset:-10px;border:var(--px) dashed var(--gold);pointer-events:none}
 .card.won{background:#fff8dc}
 .card.won::before{content:"勝";position:absolute;bottom:-4px;right:-4px;width:26px;height:26px;line-height:24px;
   background:var(--gold);color:var(--ink);font-size:15px}
 .yomi{font-size:12px;opacity:.75;text-align:center;line-height:1.5;min-height:3em}
 
-#strip{display:flex;gap:4px;justify-content:center;margin-top:12px;flex-wrap:wrap}
+#strip,#events{display:flex;gap:4px;justify-content:center;margin-top:12px;flex-wrap:wrap}
 #strip button{width:26px;height:26px;padding:0;font-size:12px;background:#2a2238;border:2px solid #4a4060;color:var(--paper)}
 #strip button.cur{border-color:var(--gold)}
 #strip button.left{background:var(--L)} #strip button.right{background:var(--R)}
@@ -89,3 +90,7 @@ td canvas{width:32px;height:auto;vertical-align:middle;margin-right:6px}
   .judge canvas{width:72px}
   h1{font-size:18px}
 }
+
+#events button{padding:2px 8px;font-size:13px;background:#2a2238;border:2px solid #4a4060;color:var(--paper)}
+#events button.cur{border-color:var(--gold)}
+#events button.done{background:#4a4060}

@@ -62,6 +62,7 @@ const HAT = [ // 烏帽子 for judges
   ".....khhhhk.....",
   "....khhhhhhk....",
 ];
+const HEADTOP = { fable: 2, opus: 1, sonnet: 4, haiku: 3 }; // row of the crown within HEADS
 const FUR = {
   fable: { f: "#e08a2c", F: "#f6c36a" },
   opus: { f: "#8a5a34", F: "#f0c9a0" },
@@ -77,16 +78,16 @@ const NAMES = { fable: "Fable", opus: "Opus", sonnet: "Sonnet", haiku: "Haiku" }
 const MODELS = ["fable", "opus", "sonnet", "haiku"];
 
 function drawSprite(cv, model, robe, { hat = false, hidden = false } = {}) {
-  const rows = [...(hat ? HAT : []), ...(model ? HEADS[model] : HEADS.opus), ...BODY];
+  const rows = [...(hat ? ["", "", "", ""] : []), ...HEADS[model], ...BODY].map(r => r.padEnd(16, ".").split(""));
+  if (hat) HAT.forEach((h, i) => [...h].forEach((c, x) => { if (c !== ".") rows[HEADTOP[model] + i][x] = c; }));
   cv.width = 16; cv.height = rows.length;
   const g = cv.getContext("2d");
   const pal = { k: "#1b1626", w: "#ffffff", e: "#1b1626", h: "#2a2a34", ...(FUR[model] || {}), ...ROBE[robe] };
-  rows.forEach((row, y) => [...row].forEach((c, x) => {
+  rows.forEach((row, y) => row.forEach((c, x) => {
     if (c === ".") return;
-    g.fillStyle = hidden ? "#0d0a14" : pal[c];
+    g.fillStyle = pal[c];
     g.fillRect(x, y, 1, 1);
   }));
-  if (hidden) { g.fillStyle = "#d9a441"; [[7,3],[8,3],[9,4],[8,5],[8,7]].forEach(([x,y]) => g.fillRect(x, y + 4, 1, 1)); }
 }
 function hiddenSprite(cv) { // generic cloaked silhouette so the head shape leaks nothing
   const rows = ["................", "................", ".....kkkkkk.....", "....kkkkkkkk....", "...kkkkkkkkkk...",
@@ -100,27 +101,31 @@ function hiddenSprite(cv) { // generic cloaked silhouette so the head shape leak
 
 /* ---------- state ---------- */
 const $ = (s, el = document) => el.querySelector(s);
-const KEY = "ai-utaawase-picks-v1";
-let D, cur = 0, picks = {}, openJudge = null;
+const KEY = "ai-utaawase-picks-v2";
+const KANJI = ["", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十"];
+const kai = n => "第" + (n <= 10 ? KANJI[n] : n <= 19 ? "十" + KANJI[n - 10] : n) + "回";
+let D, R = [], ev = 0, cur = 0, picks = {}, openJudge = null;
 try { picks = JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) {}
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(picks)); } catch (e) {} };
+const pk = r => picks[r.key];
+const rounds = () => R.filter(r => r.ev === ev);
 const winner = r => r.judgments.filter(j => j.pick === "left").length * 2 > r.judgments.length ? "left" : "right";
 
 /* ---------- render ---------- */
 function render() {
-  const r = D.rounds[cur], pick = picks[r.ban], done = !!pick;
-  $("#ban").textContent = `第${r.ban}番`;
+  const rs = rounds(), r = rs[cur], pick = pk(r), done = !!pick;
+  $("#ban").textContent = `${kai(r.ev)} 第${r.ban}番`;
   $("#dai").textContent = r.dai;
   $("#daiyomi").textContent = `${r.bu}・${r.yomi}`;
 
   for (const side of ["left", "right"]) {
     const el = $(`.side.${side}`), p = r[side], card = $(".card", el);
-    $(".waka", el).textContent = p.waka;
-    $(".yomi", el).textContent = p.yomi;
+    $(".waka", el).replaceChildren(...[p.ku.slice(0, 3), p.ku.slice(3)].map(k => { const s = document.createElement("span"); s.textContent = k.join(""); return s; }));
+    $(".yomi", el).textContent = p.yomi.join("　");
     card.disabled = done;
     card.classList.toggle("mine", pick === side);
     card.classList.toggle("won", done && winner(r) === side);
-    card.onclick = () => { picks[r.ban] = side; openJudge = null; save(); render(); };
+    card.onclick = () => { picks[r.key] = side; openJudge = null; save(); render(); };
     if (done) drawSprite($("canvas", el), p.model, side); else hiddenSprite($("canvas", el));
     $(".name", el).textContent = done ? NAMES[p.model] : "";
   }
@@ -149,24 +154,31 @@ function render() {
   }
 
   const S = $("#strip"); S.innerHTML = "";
-  D.rounds.forEach((x, i) => {
+  const E = $("#events"); E.innerHTML = "";
+  if (D.events.length > 1) D.events.forEach(e => {
+    const b = document.createElement("button"), n = R.filter(x => x.ev === e.id && pk(x)).length;
+    b.textContent = kai(e.id); b.className = (e.id === ev ? "cur " : "") + (n === e.rounds.length ? "done" : "");
+    b.onclick = () => { ev = e.id; cur = Math.max(0, rounds().findIndex(x => !pk(x))); openJudge = null; render(); };
+    E.append(b);
+  });
+  rs.forEach((x, i) => {
     const b = document.createElement("button");
     b.textContent = x.ban;
-    b.className = (i === cur ? "cur " : "") + (picks[x.ban] ? winner(x) : "");
+    b.className = (i === cur ? "cur " : "") + (pk(x) ? winner(x) : "");
     b.onclick = () => { cur = i; openJudge = null; render(); };
     S.append(b);
   });
 
-  const seen = D.rounds.filter(x => picks[x.ban]);
+  const seen = R.filter(pk);
   const c = (f) => seen.filter(f).length;
   $("#tally").innerHTML =
     `<span><span class="k">判</span><b class="l">左${c(x => winner(x) === "left")}</b>－<b class="r">${c(x => winner(x) === "right")}右</b></span>` +
-    `<span><span class="k">私</span><b class="l">左${c(x => picks[x.ban] === "left")}</b>－<b class="r">${c(x => picks[x.ban] === "right")}右</b></span>`;
+    `<span><span class="k">私</span><b class="l">左${c(x => pk(x) === "left")}</b>－<b class="r">${c(x => pk(x) === "right")}右</b></span>`;
 }
 
 /* ---------- statistics (only over rounds the viewer has judged) ---------- */
 function stats() {
-  const seen = D.rounds.filter(x => picks[x.ban]);
+  const seen = R.filter(pk);
   const B = $("#statsBody"); B.innerHTML = "";
   const table = (head, rows) => {
     const t = document.createElement("table");
@@ -188,7 +200,7 @@ function stats() {
     return [label(m, "judge"), es.length,
       frac(es.filter(e => winner(e.r) === e.side).length, es.length),
       frac(es.reduce((n, e) => n + e.r.judgments.filter(j => j.pick === e.side).length, 0), es.reduce((n, e) => n + e.r.judgments.length, 0)),
-      frac(es.filter(e => picks[e.r.ban] === e.side).length, es.length)];
+      frac(es.filter(e => pk(e.r) === e.side).length, es.length)];
   }));
 
   // per judge
@@ -197,13 +209,13 @@ function stats() {
     return [label(jd.model, "judge", true),
       js.filter(x => x.j.pick === "left").length, js.filter(x => x.j.pick === "right").length,
       frac(js.filter(x => x.j.pick === winner(x.r)).length, js.length),
-      frac(js.filter(x => x.j.pick === picks[x.r.ban]).length, js.length),
+      frac(js.filter(x => x.j.pick === pk(x.r)).length, js.length),
       ...MODELS.map(m => { // votes given to each model's poems (mirror matches excluded)
         const ms = js.filter(x => (x.r.left.model === m) !== (x.r.right.model === m));
         return frac(ms.filter(x => x.r[x.j.pick].model === m).length, ms.length); })];
   }));
 
-  const n = document.createElement("div"); n.className = "dim"; n.textContent = `${seen.length}/${D.rounds.length}`;
+  const n = document.createElement("div"); n.className = "dim"; n.textContent = `${seen.length}/${R.length}`;
   B.append(n);
   $("#stats").showModal();
 }
@@ -211,13 +223,15 @@ function stats() {
 /* ---------- boot ---------- */
 fetch("data/utaawase.json").then(r => r.json()).then(d => {
   D = d;
-  const first = D.rounds.findIndex(x => !picks[x.ban]);
-  cur = first < 0 ? 0 : first;
-  $("#prev").onclick = () => { cur = (cur + D.rounds.length - 1) % D.rounds.length; openJudge = null; render(); };
-  $("#next").onclick = () => { cur = (cur + 1) % D.rounds.length; openJudge = null; render(); };
+  R = D.events.flatMap(e => e.rounds.map(r => ({ ...r, ev: e.id, key: e.id + "-" + r.ban })));
+  const first = R.find(x => !pk(x)) || R[0];
+  ev = first.ev; cur = rounds().indexOf(first);
+  const step = n => { const i = (R.indexOf(rounds()[cur]) + n + R.length) % R.length; ev = R[i].ev; cur = rounds().indexOf(R[i]); openJudge = null; render(); };
+  $("#prev").onclick = () => step(-1);
+  $("#next").onclick = () => step(1);
   $("#statsBtn").onclick = stats;
   $("#statsClose").onclick = () => $("#stats").close();
-  $("#resetBtn").onclick = () => { if (confirm("↺ ?")) { picks = {}; save(); cur = 0; openJudge = null; render(); } };
+  $("#resetBtn").onclick = () => { if (confirm("↺ ?")) { picks = {}; save(); ev = R[0].ev; cur = 0; openJudge = null; render(); } };
   document.addEventListener("keydown", e => { if (e.key === "ArrowLeft") $("#prev").click(); if (e.key === "ArrowRight") $("#next").click(); });
   render();
 });

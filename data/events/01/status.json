@@ -1,0 +1,22 @@
+{
+ "id": 1,
+ "stage": "complete",
+ "started": "2026-11-25",
+ "finished": "2026-11-25",
+ "seed": 20261125,
+ "notes": [
+  "題は三判者の案（各八）から主催者が手で十六を選んだ（第二回以降は scripts/event.py が自動選定）。",
+  "詠草は当初、句の区切りなしで受け取った。ku の区切りは主催者が後から付けた（本文は不変）。Sonnet の二名のみ原文に句間の空白があり、判者に渡す前に除いた。",
+  "歌人・判者への依頼は主催者のメッセージで直接行い、返答を主催者が記録した（第二回以降は各自がファイルに書く）。",
+  "三判者が同一の文面（judge_prompt.txt）を受け、十六番を作者不明のまま判じた。Opus の第9番は返答内で自ら訂正（pick を left と書いたのち right と訂正、判詞も右勝）。ここでは訂正後の right を採り、判詞冒頭の「（訂正）」のみ除いた。"
+ ],
+ "corrections": [
+  {
+   "judge": "opus",
+   "ban": 9,
+   "as_first_written": "left",
+   "corrected_to": "right",
+   "by": "judge (self-correction in the same reply)"
+  }
+ ]
+}

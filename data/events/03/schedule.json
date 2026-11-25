@@ -1,0 +1,165 @@
+{
+ "seed": 20261128,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "梅香留袖",
+   "yomi": "うめのかそでにとどまる",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "折りもせぬ梅の香が袖に移り残る、春の夜のゆかしさを詠む。",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 2,
+   "dai": "梅薫夜",
+   "yomi": "うめかおるよる",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "闇に香だけが立つ梅、春の夜の艶",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 3,
+   "dai": "山路藤花",
+   "yomi": "やまぢのふじ",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "山道に垂れる藤波、花の盛りの暮れ方",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 4,
+   "dai": "五月雨晴間",
+   "yomi": "さみだれのはれま",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "長雨の束の間の晴れ、雲間の光と軒の雫",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 5,
+   "dai": "五月雨",
+   "yomi": "さみだれ",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "晴れ間なく降りこめる長雨の徒然と、水かさ増す景を詠む伝統題。",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 6,
+   "dai": "夕立過ぐる里",
+   "yomi": "ゆふだちすぐるさと",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "一しきり降って去ったあとの里の気配。濡れた軒、土の香、戻ってくる蝉の声など、過ぎた後の涼を捉える。",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 7,
+   "dai": "霧中鹿",
+   "yomi": "きりのなかのしか",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "姿は霧に隠れて声ばかり聞こえる鹿。見えぬものを声で知る、聴覚の秋のあはれ。",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 8,
+   "dai": "水辺紅葉",
+   "yomi": "すいへんのもみぢ",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "水に映り、また散り浮かぶ紅葉の二重の美しさを詠む。",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 9,
+   "dai": "時雨過杣",
+   "yomi": "しぐれすぐるそま",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "杣山を過ぎる時雨、木の葉と音の移ろい",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 10,
+   "dai": "雪中待人",
+   "yomi": "せつちゆうひとをまつ",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "道の絶えた雪の庵で来ぬ人を待つ心。跡なき雪を踏み分けて来る志の深さを恋にも友にも通わせてよい。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 11,
+   "dai": "寄香忘れぬ恋",
+   "yomi": "かによするわすれぬこひ",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "移り香や薫物の残り香に、去った人が不意に立ち返る。面影よりも確かな香の記憶に寄せた、忘れ得ぬ恋。",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 12,
+   "dai": "寄扇恋",
+   "yomi": "あふぎによするこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "秋には捨てられる扇に、移ろう人の心とわが身を託す。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 13,
+   "dai": "寄文恋",
+   "yomi": "ふみによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "受け取り、また書き継ぐ文に託す思い",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 14,
+   "dai": "故郷述懐",
+   "yomi": "ふるさとのじゅっかい",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "荒れた古里に昔を偲び、身の来し方を思う",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 15,
+   "dai": "隔垣聞笛",
+   "yomi": "かきをへだててふえをきく",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "姿見えぬ隣家の笛の音に、奏でる人の心や身の上を思いやる新味の結題。",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 16,
+   "dai": "古寺残灯",
+   "yomi": "こじのざんとう",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "夜更けの古寺に一つ消え残る灯。無常と静寂のうちに、なお守り継がれるものの心細さと尊さを詠む。",
+   "left": "haiku",
+   "right": "sonnet"
+  }
+ ]
+}

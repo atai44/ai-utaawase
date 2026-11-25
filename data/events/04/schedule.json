@@ -1,0 +1,165 @@
+{
+ "seed": 20261129,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "梅薫風",
+   "yomi": "うめかぜにかをる",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "姿は見えぬまま風に運ばれる梅の香を詠む、嗅覚の題。",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 2,
+   "dai": "落花埋路",
+   "yomi": "らくくわみちをうづむ",
+   "bu": "春",
+   "dai_by": "fable",
+   "dai_note": "散り敷く花に道が消え、踏むを惜しんで行きなやむ心。惜春と訪はれぬ庭の両様に詠める。",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 3,
+   "dai": "惜残花",
+   "yomi": "ざんかをおしむ",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "散り残る花に春の終わりを惜しむ心。",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 4,
+   "dai": "盧橘薫夜",
+   "yomi": "ろきつよるかをる",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "闇に姿なく香のみ立つ花橘。昔の人の袖の香の本意を、夜の深さに据ゑて問ふ。",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 5,
+   "dai": "深山紅葉",
+   "yomi": "みやまのもみぢ",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "人の訪れぬ奥山で、ひとり色づく紅葉の寂しい美しさ。",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 6,
+   "dai": "紅葉映水",
+   "yomi": "もみぢみづにうつる",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "梢の色と水底の色、さらに流れる散り葉。実と影のいづれを錦と見るかの見立て。",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 7,
+   "dai": "荻風聞夜",
+   "yomi": "おぎのかぜきくよ",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "荻の葉擦れに秋の訪れを夜半に聞く",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 8,
+   "dai": "冬月冴",
+   "yomi": "ふゆのつきさゆ",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "凍てつく空に澄みわたる月の冷たい光",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 9,
+   "dai": "湖上氷",
+   "yomi": "こしやうのこほり",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "岸より結びそめ、波の音の絶えてゆく湖。音の消えることで寒さを詠む冬の静けさ。",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 10,
+   "dai": "寄書絶恋",
+   "yomi": "ふみによせてたゆるこひ",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "仲絶えて後も手もとに残る古き文。捨てかね、読みかへす筆の跡に寄せる恋の果て。",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 11,
+   "dai": "忘恋",
+   "yomi": "わするるこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "忘れられた恋、また忘れようとして忘れられぬ恋。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 12,
+   "dai": "待宵恋",
+   "yomi": "まつよいのこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "訪れを待つ宵のもどかしさと期待",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 13,
+   "dai": "寄衣恋",
+   "yomi": "ころもによするこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "移り香・袖の涙・形見の衣など、衣に託す恋。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 14,
+   "dai": "古寺苔",
+   "yomi": "ふるでらのこけ",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "人の絶えた古寺に積もる苔に、無常と時の流れを見る。",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 15,
+   "dai": "故郷眺望",
+   "yomi": "ふるさとのながめ",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "離れて久しい故郷を思い、眺め、懐かしむ",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 16,
+   "dai": "暁更寺灯",
+   "yomi": "げうかうのてらのともしび",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "明けがたの闇に遠く残る寺の灯ひとつ。鐘でなく光で無常と旅寝の心を詠む新味の結題。",
+   "left": "haiku",
+   "right": "opus"
+  }
+ ]
+}

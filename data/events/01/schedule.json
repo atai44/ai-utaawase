@@ -8,13 +8,8 @@
    "bu": "春",
    "dai_by": "fable",
    "dai_note": "遠山の木立を霞がへだてる朧な眺望。見えそうで見えぬ景に春の心を寄せる結題。",
-   "left": {
-    "model": "fable"
-   },
-   "right": {
-    "model": "opus"
-   },
-   "judgments": []
+   "left": "fable",
+   "right": "opus"
   },
   {
    "ban": 2,
@@ -23,13 +18,8 @@
    "bu": "春",
    "dai_by": "opus",
    "dai_note": "暮れてゆく光のなかの花で、散る惜しみに一日の終わりが重なる",
-   "left": {
-    "model": "haiku"
-   },
-   "right": {
-    "model": "sonnet"
-   },
-   "judgments": []
+   "left": "haiku",
+   "right": "sonnet"
   },
   {
    "ban": 3,
@@ -38,13 +28,8 @@
    "bu": "春",
    "dai_by": "sonnet",
    "dai_note": "朧にかすむ春の夜の月。艶と哀れを兼ねた伝統的な題。",
-   "left": {
-    "model": "sonnet"
-   },
-   "right": {
-    "model": "haiku"
-   },
-   "judgments": []
+   "left": "sonnet",
+   "right": "haiku"
   },
   {
    "ban": 4,
@@ -53,13 +38,8 @@
    "bu": "夏",
    "dai_by": "fable",
    "dai_note": "五月雨の晴れ間に聞く一声。待つ心と雨の名残の湿りを取り合わせる。",
-   "left": {
-    "model": "opus"
-   },
-   "right": {
-    "model": "fable"
-   },
-   "judgments": []
+   "left": "opus",
+   "right": "fable"
   },
   {
    "ban": 5,
@@ -68,13 +48,8 @@
    "bu": "夏",
    "dai_by": "opus",
    "dai_note": "火と水の取り合わせで、映る光と思ひの火への転じ方を見る",
-   "left": {
-    "model": "haiku"
-   },
-   "right": {
-    "model": "opus"
-   },
-   "judgments": []
+   "left": "haiku",
+   "right": "opus"
   },
   {
    "ban": 6,
@@ -83,13 +58,8 @@
    "bu": "夏",
    "dai_by": "sonnet",
    "dai_note": "茂り乱れる草のいきれに、時の移ろいと人の跡の絶えたさまを託す。",
-   "left": {
-    "model": "sonnet"
-   },
-   "right": {
-    "model": "sonnet"
-   },
-   "judgments": []
+   "left": "sonnet",
+   "right": "sonnet"
   },
   {
    "ban": 7,
@@ -98,13 +68,8 @@
    "bu": "秋",
    "dai_by": "opus",
    "dai_note": "砧の音と月光を取り合わせ、聴覚と視覚の両方で秋夜の寂しさを詠ませる",
-   "left": {
-    "model": "opus"
-   },
-   "right": {
-    "model": "haiku"
-   },
-   "judgments": []
+   "left": "opus",
+   "right": "haiku"
   },
   {
    "ban": 8,
@@ -113,13 +78,8 @@
    "bu": "秋",
    "dai_by": "fable",
    "dai_note": "露深い野の小道に分け入って聞く虫の音。行く人の袖と心細さを詠み込む、やや新味の題。",
-   "left": {
-    "model": "fable"
-   },
-   "right": {
-    "model": "fable"
-   },
-   "judgments": []
+   "left": "fable",
+   "right": "fable"
   },
   {
    "ban": 9,
@@ -128,13 +88,8 @@
    "bu": "秋",
    "dai_by": "sonnet",
    "dai_note": "『秋の夕暮』の寂しさを正面から詠む。古来の名題に挑む一番。",
-   "left": {
-    "model": "haiku"
-   },
-   "right": {
-    "model": "fable"
-   },
-   "judgments": []
+   "left": "haiku",
+   "right": "fable"
   },
   {
    "ban": 10,
@@ -143,13 +98,8 @@
    "bu": "冬",
    "dai_by": "fable",
    "dai_note": "冬の明け方、川風や浦波に鳴く千鳥。寝覚めの寒さと寂寥を本意とする。",
-   "left": {
-    "model": "opus"
-   },
-   "right": {
-    "model": "sonnet"
-   },
-   "judgments": []
+   "left": "opus",
+   "right": "sonnet"
   },
   {
    "ban": 11,
@@ -158,13 +108,8 @@
    "bu": "冬",
    "dai_by": "sonnet",
    "dai_note": "まだ降らぬ雪を待つ心。冬の入口の静けさを結題で新たに。",
-   "left": {
-    "model": "sonnet"
-   },
-   "right": {
-    "model": "opus"
-   },
-   "judgments": []
+   "left": "sonnet",
+   "right": "opus"
   },
   {
    "ban": 12,
@@ -173,13 +118,8 @@
    "bu": "恋",
    "dai_by": "fable",
    "dai_note": "人知れぬ思いを、かきたてても消えがての燈火に寄せる。寄物の新しみを狙った恋題。",
-   "left": {
-    "model": "fable"
-   },
-   "right": {
-    "model": "haiku"
-   },
-   "judgments": []
+   "left": "fable",
+   "right": "haiku"
   },
   {
    "ban": 13,
@@ -188,13 +128,8 @@
    "bu": "恋",
    "dai_by": "opus",
    "dai_note": "映る面影と曇る鏡で、恋の自省と変わる心を詠ませる寄物題",
-   "left": {
-    "model": "sonnet"
-   },
-   "right": {
-    "model": "fable"
-   },
-   "judgments": []
+   "left": "sonnet",
+   "right": "fable"
   },
   {
    "ban": 14,
@@ -203,13 +138,8 @@
    "bu": "恋",
    "dai_by": "sonnet",
    "dai_note": "送った文に応えのない待つ身の切なさ。やや新味のある結題。",
-   "left": {
-    "model": "opus"
-   },
-   "right": {
-    "model": "opus"
-   },
-   "judgments": []
+   "left": "opus",
+   "right": "opus"
   },
   {
    "ban": 15,
@@ -218,13 +148,8 @@
    "bu": "恋",
    "dai_by": "opus",
    "dai_note": "一度逢ってから隔てられた恋で、恨みと追憶の間の機微を競わせる",
-   "left": {
-    "model": "haiku"
-   },
-   "right": {
-    "model": "haiku"
-   },
-   "judgments": []
+   "left": "haiku",
+   "right": "haiku"
   },
   {
    "ban": 16,
@@ -233,13 +158,8 @@
    "bu": "雑",
    "dai_by": "fable",
    "dai_note": "山住みの夕べに聞く入相の鐘。閑寂と無常、述懐の心を自由に詠ませる。",
-   "left": {
-    "model": "fable"
-   },
-   "right": {
-    "model": "sonnet"
-   },
-   "judgments": []
+   "left": "fable",
+   "right": "sonnet"
   }
  ]
 }

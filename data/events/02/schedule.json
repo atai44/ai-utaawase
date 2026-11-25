@@ -1,0 +1,165 @@
+{
+ "seed": 20261127,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "池辺若菜",
+   "yomi": "いけのへのわかな",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "早春の池のほとりに萌え出る若菜を摘む、のどかな初春の情景",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 2,
+   "dai": "余寒",
+   "yomi": "よかん",
+   "bu": "春",
+   "dai_by": "fable",
+   "dai_note": "立春を過ぎてなお去らぬ寒さに、暦と身の感覚とのずれを詠む。",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 3,
+   "dai": "夏月涼",
+   "yomi": "なつのつきすずし",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "暑熱の夜にさす月光の涼しさを、景と身の感覚の両面から捉える。",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 4,
+   "dai": "夏夜待風",
+   "yomi": "なつのよかぜをまつ",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "寝ねがての短夜、端近に出て風のおとずれを待つ心。",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 5,
+   "dai": "萩露",
+   "yomi": "はぎのつゆ",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "萩の枝をたわめる露の重さと、こぼれ散る儚さに秋の哀れを託す。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 6,
+   "dai": "朝顔",
+   "yomi": "あさがお",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "朝の間だけの花のはかなさを、露や垣根の景とともに。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 7,
+   "dai": "枯野朝霜",
+   "yomi": "かれののあさしも",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "霜に白む枯野の朝、冬の厳しさとしじまを詠む",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 8,
+   "dai": "寒夜聞霰",
+   "yomi": "かんやにあられをきく",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "見えぬ霰を音で捉える冬夜の聴覚の題。独り寝の寂寥にも通う。",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 9,
+   "dai": "寒夜埋火",
+   "yomi": "かんやのうずみび",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "灰の下にかすかに残る火に、冬の夜の独り居と尽きぬ思いを寄せる。",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 10,
+   "dai": "寄橋恋",
+   "yomi": "はしによするこい",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "渡る・絶える・朽ちるなど橋の縁によせて、通う恋の危うさを詠む。",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 11,
+   "dai": "寄月恋",
+   "yomi": "つきによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "月を見上げて遠き人を思う、月に寄せる恋の歌",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 12,
+   "dai": "初恋",
+   "yomi": "はつこい",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "恋の始まり、まだ言い出せぬ思いのほのかな兆しを詠む伝統の題。",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 13,
+   "dai": "寄雲恨恋",
+   "yomi": "くもによするうらみのこい",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "行き来する雲に、離れゆく人への恨みと未練を寄せる結題。",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 14,
+   "dai": "旅宿夢",
+   "yomi": "りょしゅくのゆめ",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "旅の仮寝に見る故郷や人の夢と、覚めての侘しさを詠む。",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 15,
+   "dai": "旅宿聞雨",
+   "yomi": "りょしゅくにあめをきく",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "旅寝の枕に聞く雨音に、故郷の遠さと来し方を思う。",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 16,
+   "dai": "窓前松風",
+   "yomi": "そうぜんのまつかぜ",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "窓辺に聞こえる松風の音に、閑居の心の澄むさまを詠む",
+   "left": "opus",
+   "right": "haiku"
+  }
+ ]
+}
