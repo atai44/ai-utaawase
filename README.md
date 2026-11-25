@@ -1,28 +1,37 @@
 # AI歌合
 
-十六番の歌合を Claude のサブエージェントで催した記録と、その観覧サイト。
+十六番の歌合を Claude のサブエージェントで繰り返し催した記録と、その観覧サイト。
 
 - 判者：Fable・Opus・Sonnet（各一名）
 - 左方・右方：それぞれ Fable・Opus・Sonnet・Haiku（計八名）
 - すべて effort = medium、人物設定なし
 - 兼題。左右は独立に詠み、判は作者を伏せて行う。持なし、三判者の多数決。
+- 題は三判者が各八つ提案し、既出を除いて十六を選ぶ。
 - 組合せは 4×4 のラテン方陣（どの左の歌人もどの右の歌人と一度ずつ当たる）。
 
 ## 記録
 
+`data/events/NN/` が一回分。段階ごとにファイルが増える。
+
 | ファイル | 内容 |
 |---|---|
-| `data/utaawase.json` | 全記録（題・歌・作者・判・判詞・勝敗）。サイトはこれを読む |
-| `data/schedule.json` | 題と組合せ（`scripts/setup.py` が seed 付きで生成） |
-| `data/raw/01_dai_suggestions.json` | 三判者の題の案（各八題。うち十六を主催者が選定） |
-| `data/raw/02_poems.json` | 歌人ごとの詠草と依頼文の雛形 |
-| `data/raw/judge_prompt.txt` | 判者に渡した文面（作者なし） |
-| `data/raw/03_judgments.json` | 判者ごとの判と判詞 |
-| `data/raw/discarded_left_first_draft.json` | 不採用の初稿（方式変更のため詠み直し） |
+| `status.json` | 段階（`dai` → `poems` → `judging` → `complete`）、seed、覚え書き |
+| `prompts/*.txt` | 判者・歌人に渡した文面そのもの |
+| `dai_{判者}.json` | 題の案 |
+| `schedule.json` | 選ばれた十六題と組合せ |
+| `poems_{左右}_{model}.json` | 詠草（五句と読み） |
+| `judg_{判者}.json` | 判と判詞 |
 
-`python3 scripts/build.py` で raw から `data/utaawase.json` を作り直せる。
+`data/utaawase.json` は **`complete` の回だけ** をまとめたもので、サイトはこれだけを読む。
+
+## 途中で止まったとき（利用上限など）
+
+- 回は原子的に扱う。全員の詠草と三判者の判が揃い、検証を通った回だけが公開される。
+- どれかのエージェントが失敗・上限到達した場合、その回は途中の段階のまま残り、公開されない。別のモデルでの代役は立てない。
+- `python3 scripts/event.py status` が各回の段階と、まだ無いファイル（＝残りの仕事）を示す。同じ文面で足りない分だけを走らせれば再開できる。
+- 完了した回はその都度コミットして push する。
 
 ## サイト
 
-静的サイト（`index.html` / `style.css` / `app.js`）。`python3 -m http.server` で開くか、GitHub Pages で公開する。
-好きな方の歌を選ぶと作者と判が明かされ、判者を押すと判詞が出る。「記録」は自分が判じた番だけを集計する。
+静的サイト（`index.html` / `style.css` / `app.js`）。GitHub Pages か `python3 -m http.server` で開く。
+好きな方の歌を選ぶと作者と判が明かされ、判者を押すと判詞が出る。集計と「記録」は自分が判じた番だけを数える。

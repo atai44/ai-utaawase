@@ -1,0 +1,165 @@
+{
+ "seed": 20261134,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "雨中帰雁",
+   "yomi": "うちゅうのきがん",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "春雨に声のみ聞こえて姿の見えぬ帰る雁、見送る心の湿りを結ぶ",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 2,
+   "dai": "遅日眺望",
+   "yomi": "ちじつちょうぼう",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "日の長い春の午後、野山や海辺をはるかに眺める心のゆるやかさ。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 3,
+   "dai": "卯花",
+   "yomi": "うのはな",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "垣根に白く咲く卯の花を雪や月光に見立てる、初夏の伝統題",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 4,
+   "dai": "蛍火映簾",
+   "yomi": "ほたるびすだれにうつる",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "簾越しに映る蛍の淡い光。涼しさと物思いを重ねる新味のある結題。",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 5,
+   "dai": "月前竹風",
+   "yomi": "げつぜんのちくふう",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "月影に竹のさやぐ音、見るものと聞くものの取り合わせに新味を求める",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 6,
+   "dai": "稲妻照田",
+   "yomi": "いなづまたをてらす",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "一瞬の光に浮かぶ穂波と、あとに残る闇の深さ。刹那の景を捉える。",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 7,
+   "dai": "秋風訪宿",
+   "yomi": "あきかぜやどをおとなう",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "秋風が宿の戸を訪れる気配に、人の訪れを待つ心を寄せる。",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 8,
+   "dai": "月照古道",
+   "yomi": "つきふるきみちをてらす",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "人通りも絶えた古道に月が照る寂びた趣。",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 9,
+   "dai": "暁庭落葉",
+   "yomi": "ぎょうていのらくよう",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "夜もすがら散り敷いた庭の落葉を暁に見出す、音と景の時間差を詠む",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 10,
+   "dai": "冬朝水鳥",
+   "yomi": "ふゆのあさみずどり",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "凍てつく冬の朝、水辺に浮かぶ水鳥の姿と声。",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 11,
+   "dai": "炭竈煙",
+   "yomi": "すみがまのけぶり",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "冬山に細く立つ煙に、人の営みのわびしさと里遠き寒さを思う。",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 12,
+   "dai": "久恋",
+   "yomi": "ひさしきこい",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "年月を経てなお実らぬ恋、積もる時の重さを詠む古来の題",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 13,
+   "dai": "寄松恋",
+   "yomi": "まつによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "「待つ」を掛けて松に寄せ、来ぬ人を待つ恋の心を詠む。",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 14,
+   "dai": "寄潮隔恋",
+   "yomi": "しほによせてへだつるこひ",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "満ち干る潮に通い路を断たれる心を託し、逢えぬ間の満ち引きする思いを詠む。",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 15,
+   "dai": "海辺松",
+   "yomi": "かいへんのまつ",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "潮風に耐えて立つ浜の松、変わらぬものへの祝意や述懐を込める",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 16,
+   "dai": "渡口待舟",
+   "yomi": "わたしぐちにふねをまつ",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "暮れ方の渡し場で舟を待つ旅人の所在なさ。対岸への思いと行路の感慨を。",
+   "left": "sonnet",
+   "right": "fable"
+  }
+ ]
+}
