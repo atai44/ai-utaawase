@@ -1,0 +1,165 @@
+{
+ "seed": 20261137,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "岸柳靡風",
+   "yomi": "きしのやなぎかぜになびく",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "水辺の青柳が春風に糸を乱すさまを、水面の映りとあわせて詠む。",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 2,
+   "dai": "苗代蛙",
+   "yomi": "なわしろのかわず",
+   "bu": "春",
+   "dai_by": "fable",
+   "dai_note": "水を張った苗代に鳴く蛙の声に、暮れゆく春の田園ののどけさを詠む。",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 3,
+   "dai": "水鶏叩夜",
+   "yomi": "くいなよるをたたく",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "戸を叩くような水鶏の声に、短夜の訪れ人かと惑う心。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 4,
+   "dai": "沢辺杜若",
+   "yomi": "さはべのかきつばた",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "八橋の古歌を踏まえつつ、沢の水の涼しさと花の色を取り合わせる。",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 5,
+   "dai": "夏木立蝉",
+   "yomi": "なつこだちせみ",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "深い木立に響く蝉の声と木陰の涼しさ",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 6,
+   "dai": "田家秋雨",
+   "yomi": "でんかのあきさめ",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "稲を守る仮庵に降る秋雨のわびしさ、刈り干す袖の濡れ。",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 7,
+   "dai": "月下薄",
+   "yomi": "げっかのすすき",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "月光に揺れる薄の穂の淡いなびき",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 8,
+   "dai": "冬枯庭",
+   "yomi": "ふゆがれのにわ",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "草木の枯れた庭のさびしさと訪れる人なき静けさ",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 9,
+   "dai": "庭雪無跡",
+   "yomi": "にはのゆきあとなし",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "訪う人の跡もない庭の雪に、冬の寂しさと人待つ心をにじませる結題。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 10,
+   "dai": "寄櫛恋",
+   "yomi": "くしによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "別れた人の残した櫛に募る面影",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 11,
+   "dai": "待つ夜の更けて",
+   "yomi": "まつよのふけて",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "来ぬ人を待つうち夜が更けてゆく心細さ",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 12,
+   "dai": "行き違ひて逢はぬ恋",
+   "yomi": "ゆきちがいてあわぬこい",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "訪えば留守、待てば来ず、互いに思いながら掛け違う恋の新味ある結題。",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 13,
+   "dai": "顕恋",
+   "yomi": "あらはるるこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "忍びきれず人に知られてしまった恋の、恥じらいと覚悟を詠む。",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 14,
+   "dai": "夜雨懐旧",
+   "yomi": "やうのかいきゅう",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "夜の雨音を聞きつつ、過ぎた日々と亡き人を偲ぶ述懐の題。",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 15,
+   "dai": "老後述懐",
+   "yomi": "ろうごじゅっかい",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "年老いて振り返る身の上と世の移り変わり",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 16,
+   "dai": "古駅夕煙",
+   "yomi": "ふるきうまやのゆふけぶり",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "旅の途上、寂れた宿駅に立つ夕餉の煙に、羇旅の心細さと人里の懐かしさを見る新味の結題。",
+   "left": "fable",
+   "right": "sonnet"
+  }
+ ]
+}

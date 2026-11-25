@@ -1,0 +1,165 @@
+{
+ "seed": 20261138,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "初花",
+   "yomi": "はつはな",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "その年はじめて咲く花を待ちわび、見出したときの心のときめき。",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 2,
+   "dai": "花下忘帰",
+   "yomi": "はなのもとにかへるをわする",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "花に心を奪われ帰路を忘れる、古来の伝統題",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 3,
+   "dai": "橘薫枕",
+   "yomi": "たちばなかおるまくら",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "夜の枕にかよう橘の香に、昔を偲ぶ夏の夜の物思い。",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 4,
+   "dai": "垣根夕顔",
+   "yomi": "かきねのゆうがお",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "賤が家の垣に白く咲く夕顔、たそがれのほのかさを本意とする",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 5,
+   "dai": "秋夜長",
+   "yomi": "あきのよながし",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "長き秋の夜をいかに過ごすか、寝覚めの心",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 6,
+   "dai": "九月尽",
+   "yomi": "くがつじん",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "秋の果つる日、行く秋を惜しみ留めえぬ心",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 7,
+   "dai": "露分衣",
+   "yomi": "つゆわけごろも",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "秋の野の深い露を分けゆく袖の濡れに、旅や通い路の情趣を重ねる。",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 8,
+   "dai": "庭上初霜",
+   "yomi": "ていじょうはつしも",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "朝の庭にはじめて置く霜に、季節の移ろいと冬の訪れを覚える。",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 9,
+   "dai": "夜聞雪折",
+   "yomi": "よるゆきおれをきく",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "寝覚の床に竹や枝の雪折れの音を聞き、見えぬ雪の深さを知る",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 10,
+   "dai": "忍びて年経る恋",
+   "yomi": "しのびてとしふるこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "打ち明けぬまま年月を重ねた恋の重さ、やや新味の結題",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 11,
+   "dai": "逢増恋",
+   "yomi": "あうてますこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "逢ったがゆえにかえって募る思いを詠む。",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 12,
+   "dai": "寄月待恋",
+   "yomi": "つきによせてまつこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "月の出を待つ心に、訪れぬ人を待つ恋のもどかしさを託す。",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 13,
+   "dai": "遠き声を聞く恋",
+   "yomi": "とおきこえをきくこい",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "逢へずして声ばかりを隔てて聞く恋、近くて遠い新味の結題",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 14,
+   "dai": "田家夕煙",
+   "yomi": "でんかのゆうけむり",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "里の夕餉の煙の立つさまに、人の営みのあはれを見る",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 15,
+   "dai": "雨夜読古書",
+   "yomi": "あめのよふるきふみをよむ",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "雨の夜、灯の下に古き文をひらき、見ぬ世の人を友とする心",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 16,
+   "dai": "夢逢旧友",
+   "yomi": "ゆめにふるきともにあふ",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "夢に昔の友と逢い、覚めての懐旧、新味の結題",
+   "left": "opus",
+   "right": "fable"
+  }
+ ]
+}

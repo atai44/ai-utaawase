@@ -1,0 +1,165 @@
+{
+ "seed": 20261135,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "春霞横山",
+   "yomi": "はるがすみよこやま",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "山の中腹に帯のように棚引く霞を詠む。伝統的な春の景。",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 2,
+   "dai": "岸柳",
+   "yomi": "きしのやなぎ",
+   "bu": "春",
+   "dai_by": "fable",
+   "dai_note": "水に枝を垂れる川岸の柳。風と波と糸の縁で春の長閑さを詠む伝統題。",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 3,
+   "dai": "夕蛙",
+   "yomi": "ゆうかわず",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "夕暮れの田や岸に鳴く蛙の声に、暮春の情趣を託す。",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 4,
+   "dai": "夏山時鳥",
+   "yomi": "なつやまほととぎす",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "緑深い山に初音を待ち、また聞く喜びと余韻を詠む。",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 5,
+   "dai": "照射",
+   "yomi": "ともし",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "夏の夜の山に火串をともして鹿を待つ狩の景、闇と火と命のあはひを詠む。",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 6,
+   "dai": "夜水鶏",
+   "yomi": "よるのくひな",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "短夜に戸を叩くかと聞こえる水鶏の声。訪れを待つ心との掛け合いを見たい。",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 7,
+   "dai": "初雁",
+   "yomi": "はつかり",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "その年はじめて聞く雁の声に、秋の深まりと遠き便りを思ふ伝統題。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 8,
+   "dai": "月前虫音",
+   "yomi": "げつぜんのむしのね",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "月明かりの下、露の野に澄む虫の音の哀れを詠む。",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 9,
+   "dai": "薄未出穂",
+   "yomi": "すすきいまだほにいでず",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "穂に出る前の薄。秋の初めの気配と、まだ色に出さぬ思いの余情を含む。",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 10,
+   "dai": "狩場霰",
+   "yomi": "かりばのあられ",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "鷹狩の野に霰たばしる。動きと音のある冬の景を求める。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 11,
+   "dai": "寄筆恋",
+   "yomi": "ふでによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "筆跡や筆の運びに寄せて、忍ぶ思いや面影を詠む結題。",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 12,
+   "dai": "待つ夜の更けゆく恋",
+   "yomi": "まつよのふけゆくこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "来ぬ人を待ちつつ夜が深まるにつれて募る恋心。",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 13,
+   "dai": "隔遠路恋",
+   "yomi": "とほきみちをへだつるこひ",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "遠い道のりを隔てて思う恋。距離そのものを恨み、頼みとする心。",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 14,
+   "dai": "寄煙恋",
+   "yomi": "けぶりによするこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "立ちのぼり消えゆく煙に、胸に燃えて人に見えぬ思ひを託す。",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 15,
+   "dai": "灯下懐旧",
+   "yomi": "とうかのくわいきう",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "ともしびのもとで昔を偲ぶ。夜の静けさに過ぎた日と亡き人を思い返す述懐の題。",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 16,
+   "dai": "社頭祝",
+   "yomi": "しやとうのいはひ",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "神前にて世と君の久しきを言祝ぐ、歌合の結びにふさはしい祝の題。",
+   "left": "sonnet",
+   "right": "haiku"
+  }
+ ]
+}

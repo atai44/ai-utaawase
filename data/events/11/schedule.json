@@ -1,0 +1,165 @@
+{
+ "seed": 20261136,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "河辺柳",
+   "yomi": "かはべのやなぎ",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "芽吹く柳の糸が川風と水影に揺れる、春の柔らかな景を詠む伝統題。",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 2,
+   "dai": "岸款冬",
+   "yomi": "きしのやまぶき",
+   "bu": "春",
+   "dai_by": "fable",
+   "dai_note": "暮春の岸に咲きこぼれる山吹と、水に映り流れる花の色を詠む伝統題",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 3,
+   "dai": "雨後瞿麦",
+   "yomi": "うごのなでしこ",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "夏雨の晴れ間に露を帯びて咲く撫子に、可憐さと「床夏」の掛詞の余地を求める結題。",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 4,
+   "dai": "暁水鶏",
+   "yomi": "あかつきのくひな",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "短夜の明け方、戸を叩くかと聞きまがう水鶏の声に、人待つ心や夢の名残を重ねる",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 5,
+   "dai": "野花留客",
+   "yomi": "のばなかくをとどむ",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "秋の野の千草が旅人の足を止める、花と人との交わりを詠ませるやや新味の結題。",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 6,
+   "dai": "庭上初秋",
+   "yomi": "ていじょうのしょしゅう",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "庭先にふと感じる秋のはじめの風や色の変化を詠む",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 7,
+   "dai": "風前薄",
+   "yomi": "かぜのまへのすすき",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "風に靡き、人を招くかと見える尾花の穂波に、秋のあわれと景の動きを捉える",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 8,
+   "dai": "夜雪折竹",
+   "yomi": "よるのゆきたけををる",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "目には見えぬ夜の深雪を、竹の折れる音によって知る。聴覚に寄せた冬の結題",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 9,
+   "dai": "庭雪厭人跡",
+   "yomi": "にはのゆきひとあとをいとふ",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "待つ心と、降り積もった雪を踏み荒らされたくない心との揺れを詠む結題。",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 10,
+   "dai": "霜夜聞砧",
+   "yomi": "しもよにきぬたをきく",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "霜の冴える夜、遠くから響く砧の音に冬の侘しさを重ねる",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 11,
+   "dai": "寄風恋",
+   "yomi": "かぜによするこひ",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "便りを運ぶ風、心変わりを告げる風、姿なく身にしむ風に恋の思いを託す",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 12,
+   "dai": "声のみ残る恋",
+   "yomi": "こゑのみのこるこひ",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "面影は薄れても耳に残る声だけが消えぬ、別れて後の恋。やや新味のある和文の題",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 13,
+   "dai": "寄雪恋",
+   "yomi": "ゆきによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "積もり消える雪になぞらえ、人知れぬ思いの深さとはかなさを詠む",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 14,
+   "dai": "聞声恋",
+   "yomi": "こゑをきくこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "姿は見えず声ばかり聞く恋の、近くて遠いもどかしさを詠む題。",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 15,
+   "dai": "述懐",
+   "yomi": "じゅっかい",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "老いや身の境涯への思いを素直に述べる伝統的な雑の題",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 16,
+   "dai": "羇中晩嵐",
+   "yomi": "きちゅうのばんらん",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "旅の途上、日暮れの山風に心細さと家郷の思いが募る羇旅の結題。",
+   "left": "sonnet",
+   "right": "fable"
+  }
+ ]
+}
