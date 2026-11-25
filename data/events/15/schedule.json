@@ -1,0 +1,165 @@
+{
+ "seed": 20261140,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "春雨",
+   "yomi": "はるさめ",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "音もなく降りこめる雨に、芽ぐみ、花を待つ心を細やかに詠む。",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 2,
+   "dai": "泉辺忘夏",
+   "yomi": "いずみのほとりになつをわする",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "掬ぶ清水の冷たさに、暑さも季節も忘れる一時",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 3,
+   "dai": "待郭公",
+   "yomi": "ほととぎすをまつ",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "まだ鳴かぬ初音を夜もすがら待ちわびる、夏歌の本意そのものの題。",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 4,
+   "dai": "朝霧隠舟",
+   "yomi": "あさぎりふねをかくす",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "漕ぎ出でた舟が霧に消え、櫓の音だけが残る川面の朝",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 5,
+   "dai": "鹿声近枕",
+   "yomi": "しかのこゑまくらにちかし",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "遠く聞くはずの鹿の声が枕辺に迫る、山里の夜の寂しさと驚き。",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 6,
+   "dai": "刈田鳴子",
+   "yomi": "かりたなるこ",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "収穫後の田に残る鳴子の音に、秋の暮れゆく寂しさを託す。",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 7,
+   "dai": "軒氷柱",
+   "yomi": "のきつらら",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "軒に垂れる氷柱に、冬の朝の冴えと家居の静けさを見る。",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 8,
+   "dai": "氷留水声",
+   "yomi": "こおりみずのこえをとどむ",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "昨日まで聞こえた流れの音が、氷に閉じられて絶えた静寂",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 9,
+   "dai": "初時雨",
+   "yomi": "はつしぐれ",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "冬の到来を告げる最初の時雨に、移ろう季節の境目を捉える。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 10,
+   "dai": "寄蛍恋",
+   "yomi": "ほたるによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "燃ゆる思いを声なく光る蛍に重ねる。",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 11,
+   "dai": "寄鐘恋",
+   "yomi": "かねによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "後朝を告げる鐘の音に、別れの惜しさを詠む。",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 12,
+   "dai": "形見を返す恋",
+   "yomi": "かたみをかえすこい",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "絶えた仲の形見を返す、あるいは返される折の未練と決意",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 13,
+   "dai": "寄石恋",
+   "yomi": "いしによするこい",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "物言わぬ石、動かぬ石、苔むす石に託す、年を経ても変わらぬ思い",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 14,
+   "dai": "江上暮帆",
+   "yomi": "こうしやうのぼはん",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "夕暮れの川面を遠ざかる帆影に、旅情と行方知れぬ思いを重ねる眺望の題。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 15,
+   "dai": "遠帆暮",
+   "yomi": "とおほのくれ",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "夕暮れの海に消えゆく帆影に、旅と無常の思いを寄せる。",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 16,
+   "dai": "橋上行人",
+   "yomi": "きょうじょうのこうじん",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "橋を渡りゆく見知らぬ人の後ろ姿に、世の往来と無常を思う",
+   "left": "fable",
+   "right": "sonnet"
+  }
+ ]
+}

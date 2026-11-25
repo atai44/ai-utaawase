@@ -1,0 +1,165 @@
+{
+ "seed": 20261141,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "残月聞鐘",
+   "yomi": "ざんげつぶんしょう",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "明けやらぬ空に残る月と、遠く響く鐘の音の春の曙の情趣",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 2,
+   "dai": "暮春鶯",
+   "yomi": "ぼしゅんのうぐいす",
+   "bu": "春",
+   "dai_by": "fable",
+   "dai_note": "春の果てに老いゆく鶯の声を、行く春を惜しむ心に重ねて詠む。",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 3,
+   "dai": "泉辺避暑",
+   "yomi": "せんぺんにしょをさく",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "湧き水のほとりに暑さを忘れる涼しさ。手に掬ぶ水の感触まで詠みたい。",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 4,
+   "dai": "夕立後月",
+   "yomi": "ゆうだちのちのつき",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "激しい雨のあと雲間に現れた月の、洗われたような涼しさ",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 5,
+   "dai": "池上蓮",
+   "yomi": "ちじょうのはちす",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "池の面に開く蓮の清らかさ、葉に置く露の玉に夏の朝を見る。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 6,
+   "dai": "鹿声遠近",
+   "yomi": "ろくせいえんきん",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "遠く近く聞こえる妻恋う鹿の声。距離の移ろいに夜の深さと寂しさを聞く。",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 7,
+   "dai": "暁更聞鹿",
+   "yomi": "ぎょうこうにしかをきく",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "明け方近く、寝覚めの耳に届く鹿の声に秋のあわれを尽くす。",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 8,
+   "dai": "松上雪",
+   "yomi": "しょうじょうのゆき",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "常磐の松に積もる雪、変わらぬ緑と白との対照を詠む。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 9,
+   "dai": "夜神楽",
+   "yomi": "よるのかぐら",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "霜夜の庭火と笛・榊葉の声。冴えた寒さのなかの神さびた気配を詠む。",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 10,
+   "dai": "人づてにきく恋",
+   "yomi": "ひとづてにきくこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "直接には逢えず、人づてに消息を聞くばかりのもどかしい恋",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 11,
+   "dai": "寄枕恋",
+   "yomi": "まくらによするこい",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "独り寝の枕に涙と思いを託し、知る者は枕のみという恋心。",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 12,
+   "dai": "寄暦恋",
+   "yomi": "こよみによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "日数を数え暦を繰りつつ、訪れぬ人を待ち続ける恋心",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 13,
+   "dai": "寄糸恋",
+   "yomi": "いとによするこい",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "縒る・乱る・絶ゆ・繰るなど糸の縁語に託して、細くつながる思いを詠む。",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 14,
+   "dai": "山里春夕",
+   "yomi": "やまざとのしゅんせき",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "人少ない山里で迎える春の夕暮れの静かな暮らし",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 15,
+   "dai": "旅泊浪",
+   "yomi": "りょはくのなみ",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "船泊まりの夜、枕に通う浪の音。都を思う旅寝の心細さを詠む。",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 16,
+   "dai": "老後友",
+   "yomi": "おいてのとも",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "老いて数少なくなった旧友を思い、昔を偲ぶ述懐",
+   "left": "fable",
+   "right": "sonnet"
+  }
+ ]
+}
