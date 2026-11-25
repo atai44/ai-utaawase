@@ -1,0 +1,165 @@
+{
+ "seed": 20261152,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "春野雉",
+   "yomi": "はるののきぎす",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "焼け野に妻を恋ふ雉の声。伝統の春野の題を鳥の声から詠む。",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 2,
+   "dai": "夏野百合",
+   "yomi": "なつののゆり",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "茂る夏草にまぎれて咲く百合の、ひそかな色と香をとらえる。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 3,
+   "dai": "清滝涼風",
+   "yomi": "きよたきのすずかぜ",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "滝のしぶきを運ぶ風の涼しさ。暑き日の一瞬の安らぎ。",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 4,
+   "dai": "夕雲峰",
+   "yomi": "ゆふべのくものみね",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "夕日に染まりつつ崩れゆく雲の峰。盛夏の壮大と、暮れゆく一日のはかなさを併せて。",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 5,
+   "dai": "山家落栗",
+   "yomi": "さんかのおちぐり",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "山里の夜、屋根や庭に栗の落ちる音に深まる秋の寂しさを聞く。",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 6,
+   "dai": "藤袴",
+   "yomi": "ふぢばかま",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "誰が脱ぎ掛けしと古歌に問はれた花。色よりも香、主知らぬ移り香の趣を本意とする。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 7,
+   "dai": "雪夜読書",
+   "yomi": "せつやのどくしょ",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "雪明りと灯のもと、静まる夜に古き書をひもとく閑雅の心。",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 8,
+   "dai": "雪夜聞犬",
+   "yomi": "せつやにいぬをきく",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "雪の静けさに遠く響く犬の声。里の寒夜のぬくもりと寂しさ。",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 9,
+   "dai": "息白き朝",
+   "yomi": "いきしろきあした",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "新味の題。冬の朝、わが息・人の息の白さに寒さと命のぬくもりを見る。",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 10,
+   "dai": "寄硯恋",
+   "yomi": "すずりによするこい",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "磨る墨の濃淡や硯の水に、言い出しかねる思いを託す。",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 11,
+   "dai": "文を焼く恋",
+   "yomi": "ふみをやくこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "忘れようと文を火にくべる手の迷い。煙に残る未練。",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 12,
+   "dai": "寄影恋",
+   "yomi": "かげによするこひ",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "水・灯・月にうつる影、身に添ふ影に寄せて、逢へぬ人への思ひを述べる。",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 13,
+   "dai": "夢路にも逢はぬ恋",
+   "yomi": "ゆめじにもあわぬこい",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "現はもとより夢にさえ人の訪れぬ、いよいよ深い隔ての嘆き。",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 14,
+   "dai": "寄竹祝",
+   "yomi": "たけによするいわい",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "節を重ね常に青い竹に、家や君の久しい栄えを寿ぐ祝言の題。",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 15,
+   "dai": "待友不来",
+   "yomi": "ともをまてどきたらず",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "訪れると言った友が来ぬ閑居の夕。恨みよりも淡い寂しさを。",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 16,
+   "dai": "破れ障子を繕ふ",
+   "yomi": "やれしょうじをつくろう",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "日常の小さな営みに、年月と暮らしの哀感を見出す結題。",
+   "left": "opus",
+   "right": "sonnet"
+  }
+ ]
+}

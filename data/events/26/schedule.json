@@ -1,0 +1,165 @@
+{
+ "seed": 20261151,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "春夜聞雨",
+   "yomi": "しゅんやにあめをきく",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "見えぬ夜の春雨を音のみで捉え、花への思いや物思いを添える結題。",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 2,
+   "dai": "燕来る軒",
+   "yomi": "つばめくるのき",
+   "bu": "春",
+   "dai_by": "fable",
+   "dai_note": "去年の巣に燕の帰り来る軒端。巡る春と、待つ家の歳月を詠む",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 3,
+   "dai": "青田風",
+   "yomi": "あおたかぜ",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "一面の早苗田を渡る涼風の波に、夏の盛りの安らぎを見る。",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 4,
+   "dai": "夕蜩",
+   "yomi": "ゆふひぐらし",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "夏の暮れ方の蜩の声。涼しさのうちに秋の気配と日の名残を聞く",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 5,
+   "dai": "桐一葉",
+   "yomi": "きりひとは",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "一葉の落ちる音に秋の訪れを悟る、古来の感慨を新たに詠む。",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 6,
+   "dai": "待月",
+   "yomi": "まつつき",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "月の出を今か今かと待つ夜の、期待と静けさ。",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 7,
+   "dai": "夕霧",
+   "yomi": "ゆふぎり",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "夕暮の霧に隠れる景と心細さ。古典的な一字題に近い素直な題。",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 8,
+   "dai": "冬至",
+   "yomi": "とうじ",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "一年で最も短い日の暮れの早さに、移ろう歳月と春の兆しを思う。",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 9,
+   "dai": "浦千鳥",
+   "yomi": "うらちどり",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "冬の浦に鳴く千鳥の声に寒さと寂しさを託す伝統題。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 10,
+   "dai": "互ひに言はぬ恋",
+   "yomi": "たがひにいはぬこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "両思いと察しながらどちらも口に出さぬ恋の、甘さともどかしさ。新味ある題。",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 11,
+   "dai": "色に出づる恋",
+   "yomi": "いろにいづるこひ",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "忍ぶまいとしても顔や袖に表れてしまう、隠しきれぬ恋心。",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 12,
+   "dai": "寄窓恋",
+   "yomi": "まどによするこひ",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "人の窓の灯や影を見上げ、閉ざされた窓に隔てられる思いを詠む結題。",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 13,
+   "dai": "駅にて別るる恋",
+   "yomi": "えきにてわかるるこひ",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "古の駅路にも今の駅にも通ふ別れの場。見送る者と去る者の心",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 14,
+   "dai": "社頭月",
+   "yomi": "しゃとうのつき",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "神域を照らす月の清らかさに、祈りや祝意を込める。",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 15,
+   "dai": "野寺訪僧",
+   "yomi": "のでらにそうをとふ",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "野中の寺に僧を訪ねる閑寂。逢ふも逢はぬも趣とする伝統的な結題",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 16,
+   "dai": "止まりし時計",
+   "yomi": "とまりしとけい",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "止まったままの時計に、過ぎた時や亡き人の記憶を見る新しい題。",
+   "left": "opus",
+   "right": "opus"
+  }
+ ]
+}
