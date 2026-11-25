@@ -1,0 +1,165 @@
+{
+ "seed": 20261145,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "遠山桜",
+   "yomi": "とおやまざくら",
+   "bu": "春",
+   "dai_by": "fable",
+   "dai_note": "雲か花かと見まがう遠嶺の桜を、隔たりの心とともに詠む",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 2,
+   "dai": "短夜",
+   "yomi": "みじかよ",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "明けやすい夏の夜の惜しさを、月・鳥・人事のいずれかに託して。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 3,
+   "dai": "夕涼蚊遣火",
+   "yomi": "ゆうすずみかやりび",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "夕涼みの縁に細くたなびく蚊遣火の煙に、夏の暮れの情を寄せる",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 4,
+   "dai": "霧間月",
+   "yomi": "きりまのつき",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "晴れ間なき霧のほのかな切れ目に覗く月の、見え隠れする風情",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 5,
+   "dai": "籬菊帯霜",
+   "yomi": "まがきのきく しもをおぶ",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "晩秋の籬に霜をまとう菊、移ろう色と冴えの取り合わせ。",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 6,
+   "dai": "暮秋虫",
+   "yomi": "ぼしゅうのむし",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "行く秋に弱りゆく虫の音の、絶え絶えのあはれ",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 7,
+   "dai": "山家冬夕",
+   "yomi": "さんかのふゆのゆうべ",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "人訪はぬ山里の冬の夕暮れ、煙と寒さの中の寂寥",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 8,
+   "dai": "鷹狩",
+   "yomi": "たかがり",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "雪の野を翔ける鷹と狩人、冬の野の動きある景を。",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 9,
+   "dai": "橋上霜",
+   "yomi": "きょうじょうのしも",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "まだ誰も踏まぬ朝の橋の霜、その白さと跡を惜しむ心",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 10,
+   "dai": "寄波恋",
+   "yomi": "なみによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "寄せては返す波に、通ひ来ぬ人を待つ心の揺れを重ねる",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 11,
+   "dai": "寄傘恋",
+   "yomi": "かさによするこい",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "差しかけ、借り、忘れ置く傘に託す、近くて遠い恋心",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 12,
+   "dai": "寄草恋",
+   "yomi": "くさによするこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "忍ぶ草・忘れ草など、草の名と姿に恋心を寄せる伝統題。",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 13,
+   "dai": "祈恋",
+   "yomi": "いのるこい",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "神仏に頼むほかない恋の、験なき嘆きと一途さ",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 14,
+   "dai": "幼き日を思ふ",
+   "yomi": "をさなきひをおもふ",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "老いの目から見返す幼い日の一場面、懐旧の新しい切り口。",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 15,
+   "dai": "古井澄水",
+   "yomi": "ふるゐにすめるみづ",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "荒れた庭の古井戸に澄む水、過ぎた年月と変わらぬものを。",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 16,
+   "dai": "市中隠者",
+   "yomi": "しちゅうのいんじゃ",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "人里の雑踏のただ中にありながら、心だけは山居の如く静かにある境地",
+   "left": "haiku",
+   "right": "opus"
+  }
+ ]
+}

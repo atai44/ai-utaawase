@@ -1,0 +1,165 @@
+{
+ "seed": 20261147,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "霞中帰帆",
+   "yomi": "かすみのなかのきはん",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "春霞にかすむ海上を、帰る舟の帆がほのかに見えゆく趣",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 2,
+   "dai": "蚊遣火",
+   "yomi": "かやりび",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "賤が家の煙の下にくすぶる夏の夜、下燃えの思いも通わせて",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 3,
+   "dai": "夕顔の宿",
+   "yomi": "ゆうがおのやど",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "夕暮れに白く咲く花に、ひなびた宿の侘しさと情をそえる",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 4,
+   "dai": "虫声漸弱",
+   "yomi": "むしのこえようやくよわし",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "夜ごとに細りゆく虫の音に、秋の深まりと身の衰えを聞く",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 5,
+   "dai": "籬菊",
+   "yomi": "まがきのきく",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "隠者の籬に咲く菊、その香と色に閑居の心をこめる伝統題。",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 6,
+   "dai": "天の川",
+   "yomi": "あまのがわ",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "七夕のころ、夜空に横たわる銀河の広がりと牽牛織女への思い",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 7,
+   "dai": "残菊帯霜",
+   "yomi": "ざんぎくしもをおぶ",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "霜を置いてなお色を残す菊の、移ろいの果ての気品",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 8,
+   "dai": "枯尾花",
+   "yomi": "かれおばな",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "冬枯れの野に残る尾花の、風に揺れる寂しさ",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 9,
+   "dai": "寒樹夕陽",
+   "yomi": "かんじゅのせきよう",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "葉を落とした木々に残る入日の淡い光、冬の色の乏しさを見つめる。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 10,
+   "dai": "寄袖恋",
+   "yomi": "そでによするこい",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "涙・移り香・振る袖など、袖を手がかりに恋情を託す伝統題。",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 11,
+   "dai": "偽りと知りつつ頼む恋",
+   "yomi": "いつわりとしりつつたのむこい",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "空言と分かっていながら、なお言の葉にすがる心の弱さ",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 12,
+   "dai": "名を呼ばぬ恋",
+   "yomi": "なをよばぬこい",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "口に出せばあらわれる名をあえて呼ばずに秘める、新味ある恋の題。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 13,
+   "dai": "寄星恋",
+   "yomi": "ほしによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "星の光や星合になぞらえて、遠く隔たる人への恋を詠む",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 14,
+   "dai": "羇旅暁鶏",
+   "yomi": "きりょのあかつきのとり",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "鶏の声に促されて発つ旅寝の暁、名残と行く末の心細さ",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 15,
+   "dai": "山寺晩鐘",
+   "yomi": "やまでらのばんしょう",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "山寺の夕べの鐘に、世の無常と静けさを聞く",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 16,
+   "dai": "雨宿りの軒",
+   "yomi": "あまやどりののき",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "見知らぬ軒を借りるひととき、行きずりの縁と世のはかなさを思う新味の題",
+   "left": "sonnet",
+   "right": "fable"
+  }
+ ]
+}
