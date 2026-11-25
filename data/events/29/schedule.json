@@ -1,0 +1,165 @@
+{
+ "seed": 20261154,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "菜の花畑",
+   "yomi": "なのはなばたけ",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "一面の黄と夕べの光、のどかな春の野の趣",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 2,
+   "dai": "春田打つ里",
+   "yomi": "はるたうつさと",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "鍬の音に土の匂い立つ、農の春の始まりを詠む新味の結題",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 3,
+   "dai": "東風解氷",
+   "yomi": "こちこおりをとく",
+   "bu": "春",
+   "dai_by": "fable",
+   "dai_note": "立春の風に水のほとりの氷がゆるみ、音と光の戻るきざしを詠む",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 4,
+   "dai": "岩間清水",
+   "yomi": "いわましみず",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "岩のはざまに湧く水の涼しさを詠む",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 5,
+   "dai": "路辺清水",
+   "yomi": "ろへんのしみづ",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "「しばしとてこそ」の古歌を本に、旅人の憩ふ道のべの涼を詠む",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 6,
+   "dai": "夕凪",
+   "yomi": "ゆうなぎ",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "風の絶えた浦や里の夕べ、動かぬ暑さの中の静けさと、かすかな涼の待たれる心",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 7,
+   "dai": "十六夜月",
+   "yomi": "いざよいのつき",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "望を過ぎてためらひ出づる月。満ちたるものの後の余情と、待つ間の闇を",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 8,
+   "dai": "稲穂の波",
+   "yomi": "いなほのなみ",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "風にうねる実りの田、秋の豊かさと風の音",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 9,
+   "dai": "有明月",
+   "yomi": "ありあけのつき",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "明けてなほ空に残る月に、別れや物思ひの余情を託す伝統題",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 10,
+   "dai": "寄橘恋",
+   "yomi": "たちばなによするこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "昔の人の袖の香を呼ぶ花橘に、忘れえぬ人への思ひを寄せる",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 11,
+   "dai": "帰る道の同じき恋",
+   "yomi": "かへるみちのおなじきこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "言葉も交はさず同じ道を帰るだけの、ささやかな近さを恋ふ",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 12,
+   "dai": "別れ際の言葉を悔ゆる恋",
+   "yomi": "わかれぎわのことばをくゆるこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "言ひ過ぎた一言を夜通し思ひ返す悔い",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 13,
+   "dai": "写真に残る恋",
+   "yomi": "しゃしんにのこるこい",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "終はりし後も変はらぬ姿を留める一葉。捨つるも見るもつらき形見の新しきかたち",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 14,
+   "dai": "窓辺の鉢植ゑ",
+   "yomi": "まどべのはちうえ",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "日々の暮らしの小さな緑に寄せる静かな心",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 15,
+   "dai": "読みさしの栞",
+   "yomi": "よみさしのしをり",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "挟まれたまま年を経た栞に、途切れた時と人を偲ぶ",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 16,
+   "dai": "朝市の声",
+   "yomi": "あさいちのこえ",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "夜明けの市に響く売り声、世の営みのにぎわひ",
+   "left": "fable",
+   "right": "sonnet"
+  }
+ ]
+}

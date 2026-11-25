@@ -1,0 +1,165 @@
+{
+ "seed": 20261156,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "花下聞鐘",
+   "yomi": "はなのもとにかねをきく",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "散りかかる花の下で入相の鐘を聞き、春の暮れと無常を重ねる。",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 2,
+   "dai": "菜花夕照",
+   "yomi": "なばなせきしょう",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "夕日に染まる菜の花畑の明るさと、暮れ残る春の名残をとらえる。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 3,
+   "dai": "樹下空蝉",
+   "yomi": "じゅかのうつせみ",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "木の下に残る蝉の殻。声の盛りの中の空ろなるものに目をとめる。",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 4,
+   "dai": "夏の夜の端居",
+   "yomi": "なつのよのはしゐ",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "縁先に出て夜風を待つくつろぎと、短夜を惜しむ心。",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 5,
+   "dai": "舟中避暑",
+   "yomi": "しゅうちゅうひしょ",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "川面の舟に涼を求める趣。水風と揺れ、遠く聞こゆる音を詠む。",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 6,
+   "dai": "柞紅葉",
+   "yomi": "ははそもみぢ",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "楢・櫟の地味な黄葉に、華やかな紅葉とは異なる佐保山の秋のさびを見る。",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 7,
+   "dai": "案山子",
+   "yomi": "かかし",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "刈入れ前の田に立つ案山子の素朴な姿に、秋の哀れと可笑しみを寄せる。",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 8,
+   "dai": "垣根山茶花",
+   "yomi": "かきねのさざんか",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "冬枯れの垣にひとり咲き、かつ散る花。人里の冬のささやかな彩り。",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 9,
+   "dai": "時雨後月",
+   "yomi": "しぐれののちのつき",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "時雨の晴れ間に冴えわたる月、定めなき空と澄む光の対照。",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 10,
+   "dai": "寄苔恋",
+   "yomi": "こけによするこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "訪う人の絶えた庭に苔が深まるように、積もる年月と忍ぶ思い。",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 11,
+   "dai": "暁別恋",
+   "yomi": "あかつきにわかるるこい",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "暁の別れの伝統的な恋題。鳥の声、明けゆく空、残る思いを。",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 12,
+   "dai": "寄鹿恋",
+   "yomi": "しかによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "妻恋ふ鹿の声に、逢へぬ身の思いを重ねる。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 13,
+   "dai": "鈴の音に待つ恋",
+   "yomi": "すずのねにまつこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "戸口の鈴が鳴るたびに来訪かと胸騒ぐ、待つ恋の新しい切り口。",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 14,
+   "dai": "山家嵐",
+   "yomi": "さんかのあらし",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "山住みの庵に聞く嵐。訪う人なき寂しさと、住みなす心の澄み。",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 15,
+   "dai": "亡き親を偲ぶ",
+   "yomi": "なきおやをしのぶ",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "ふとした折に面影の立つ、亡き父母への追慕。",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 16,
+   "dai": "雨上がりの路地",
+   "yomi": "あめあがりのろじ",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "雨の跡の光る細道に、日常のささやかな情趣を見出す新味の結題。",
+   "left": "fable",
+   "right": "opus"
+  }
+ ]
+}

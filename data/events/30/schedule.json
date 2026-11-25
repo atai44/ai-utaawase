@@ -1,0 +1,165 @@
+{
+ "seed": 20261155,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "水辺梅",
+   "yomi": "すいへんのうめ",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "水に映る梅の影と、流れに散り浮かぶ花の香を詠む。",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 2,
+   "dai": "川辺桃花",
+   "yomi": "かわのほとりのとうか",
+   "bu": "春",
+   "dai_by": "fable",
+   "dai_note": "水際に咲く桃の紅と流れに映り散る影を詠む。梅・桜に偏らぬ春の花の題。",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 3,
+   "dai": "春日野遊",
+   "yomi": "はるひのあそび",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "のどかな野に出て若菜や霞を楽しむ心",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 4,
+   "dai": "夏暁月",
+   "yomi": "なつのあかつきのつき",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "短夜の明けに残る月の、あっけなさと涼しさ。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 5,
+   "dai": "岩清水",
+   "yomi": "いわしみず",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "岩間より湧く清水の涼しさと音",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 6,
+   "dai": "雨中紫陽花",
+   "yomi": "うちゅうのあじさい",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "雨に色を移ろわせる紫陽花。古歌に乏しい花ゆえ、移ろいの心をどう新しく詠むかが見どころ。",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 7,
+   "dai": "松虫",
+   "yomi": "まつむし",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "松虫の音に待つ心を重ねる伝統の題",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 8,
+   "dai": "月前旅宿",
+   "yomi": "げつぜんのりょしゅく",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "旅の宿で仰ぐ秋の月に、故郷と人を思う。",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 9,
+   "dai": "蟋蟀近床",
+   "yomi": "きりぎりすとこにちかし",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "夜寒とともに寝床へ寄り来る虫の声。秋の深まりと独り寝のあわれを伝統の題で。",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 10,
+   "dai": "初逢恋",
+   "yomi": "はじめてあふこい",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "思い続けた人とついに逢う夜の、喜びとおそれ。",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 11,
+   "dai": "同じ月を別れて見る恋",
+   "yomi": "おなじつきをわかれてみるこい",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "離れた二人が同じ月を仰ぐ。隔たりと通い合いのあわいを詠む新味の結題。",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 12,
+   "dai": "封を切らずにおく恋",
+   "yomi": "ふうをきらずにおくこい",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "届いた文を開けば終わりが知れるかと、封を切れずにいる心。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 13,
+   "dai": "寄蔦恋",
+   "yomi": "つたによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "絡みつく蔦に離れがたい思いを寄せる",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 14,
+   "dai": "峠の茶屋",
+   "yomi": "とうげのちゃや",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "旅人の行き交う峠の一息の情趣",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 15,
+   "dai": "老松",
+   "yomi": "おいまつ",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "年経る松に寄せる祝意と述懐",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 16,
+   "dai": "田家朝霧",
+   "yomi": "でんかのあさぎり",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "霧に沈む山里の家々と、そこに始まる暮らしの音。",
+   "left": "haiku",
+   "right": "fable"
+  }
+ ]
+}
