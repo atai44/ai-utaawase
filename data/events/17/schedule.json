@@ -1,0 +1,165 @@
+{
+ "seed": 20261142,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "花下送日",
+   "yomi": "はなのもとにひをおくる",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "花の陰に一日を過ごし、帰るを忘れる心のどけさを詠む。",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 2,
+   "dai": "三月尽",
+   "yomi": "さんがつじん",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "弥生の果て、過ぎゆく春を惜しむ伝統の題。",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 3,
+   "dai": "氷室",
+   "yomi": "ひむろ",
+   "bu": "夏",
+   "dai_by": "opus",
+   "dai_note": "炎暑の中に冬を蔵する氷室の涼を、山陰の景とともに詠む。",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 4,
+   "dai": "六月祓",
+   "yomi": "みなづきばらえ",
+   "bu": "夏",
+   "dai_by": "fable",
+   "dai_note": "夏越の川辺、麻の葉を流す夕べに、去る夏と忍び寄る秋の気配を重ねる。",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 5,
+   "dai": "夕鶉",
+   "yomi": "ゆうべのうずら",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "深草の野の夕暮、鶉の声に荒れた里と人待つ心のあわれを聞く。",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 6,
+   "dai": "秋風砧遠",
+   "yomi": "あきかぜきぬたとおし",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "風に乗って遠く届く砧の音に、人恋しさを託す。",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 7,
+   "dai": "後の月",
+   "yomi": "のちのつき",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "九月十三夜、名残の月の欠けたる明るさに、過ぎゆく秋を惜しむ。",
+   "left": "opus",
+   "right": "sonnet"
+  },
+  {
+   "ban": 8,
+   "dai": "寒蘆",
+   "yomi": "かんろ",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "枯れ伏す汀の蘆に霜・風・水鳥を配し、冬の水辺の寂寥を詠む。",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 9,
+   "dai": "江辺寒蘆",
+   "yomi": "こうへんのかんろ",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "枯れ伏した入江の蘆に風の渡る、色なき冬の水辺の寂しさ。",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 10,
+   "dai": "冬山雪暮",
+   "yomi": "ふゆやまゆきのくれ",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "雪の山に暮れてゆく静寂と、ひとり行く旅情。",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 11,
+   "dai": "寄灯火恋",
+   "yomi": "ひをよするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "消えかねる灯火に、燃える思いと待つ身のはかなさを重ねる。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 12,
+   "dai": "言ひさして止む恋",
+   "yomi": "いいさしてやむこい",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "言いかけて呑み込んだ一言の、言わぬゆえにかえって深まる思い。",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 13,
+   "dai": "後朝恋",
+   "yomi": "きぬぎぬのこい",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "逢うて別るる暁、まだ残る温みと文を待つまでの心のゆらぎ。",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 14,
+   "dai": "寄山恋",
+   "yomi": "やまによするこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "隔てる山、動かぬ山に、越え難き思いや変わらぬ心を寄せる。",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 15,
+   "dai": "窓辺聞鐘",
+   "yomi": "まどべにかねをきく",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "窓辺に聞こえる鐘の音に、過ぎゆく時と無常を思う。",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 16,
+   "dai": "竹窓聴雨",
+   "yomi": "ちくそうにあめをきく",
+   "bu": "雑",
+   "dai_by": "opus",
+   "dai_note": "竹の窓辺に雨音を聞く閑居の心境を、漢詩的な趣で詠む。",
+   "left": "haiku",
+   "right": "opus"
+  }
+ ]
+}

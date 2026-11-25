@@ -1,0 +1,165 @@
+{
+ "seed": 20261144,
+ "rounds": [
+  {
+   "ban": 1,
+   "dai": "故郷菫",
+   "yomi": "ふるさとのすみれ",
+   "bu": "春",
+   "dai_by": "fable",
+   "dai_note": "荒れた旧里の庭や垣根に、昔のままに咲く菫を見出す心",
+   "left": "haiku",
+   "right": "sonnet"
+  },
+  {
+   "ban": 2,
+   "dai": "春風駘蕩",
+   "yomi": "はるかぜたいとう",
+   "bu": "春",
+   "dai_by": "sonnet",
+   "dai_note": "のどかに吹く春風の心地よさを、伝統の風情で詠む",
+   "left": "opus",
+   "right": "opus"
+  },
+  {
+   "ban": 3,
+   "dai": "岩躑躅",
+   "yomi": "いはつつじ",
+   "bu": "春",
+   "dai_by": "opus",
+   "dai_note": "岩根に燃え立つ躑躅の色を、晩春の山水の景のなかに詠む伝統題。",
+   "left": "fable",
+   "right": "fable"
+  },
+  {
+   "ban": 4,
+   "dai": "夏木陰涼",
+   "yomi": "なつこかげすずし",
+   "bu": "夏",
+   "dai_by": "sonnet",
+   "dai_note": "大樹の陰に宿る涼しさと、昼下がりの静けさ",
+   "left": "sonnet",
+   "right": "haiku"
+  },
+  {
+   "ban": 5,
+   "dai": "秋澄月影",
+   "yomi": "あきすむつきかげ",
+   "bu": "秋",
+   "dai_by": "sonnet",
+   "dai_note": "澄みわたる秋空の月光、水や野に落ちる影",
+   "left": "sonnet",
+   "right": "sonnet"
+  },
+  {
+   "ban": 6,
+   "dai": "夕野鶉",
+   "yomi": "ゆふべののうづら",
+   "bu": "秋",
+   "dai_by": "fable",
+   "dai_note": "暮れゆく野に鶉の声を聞き、秋の深まりと身にしむあはれを詠む",
+   "left": "fable",
+   "right": "opus"
+  },
+  {
+   "ban": 7,
+   "dai": "女郎花",
+   "yomi": "をみなへし",
+   "bu": "秋",
+   "dai_by": "opus",
+   "dai_note": "野辺になまめく花の姿に、名にかけた戯れや人恋しさを託す古題。",
+   "left": "opus",
+   "right": "haiku"
+  },
+  {
+   "ban": 8,
+   "dai": "冬籠閑窓",
+   "yomi": "ふゆごもりかんそう",
+   "bu": "冬",
+   "dai_by": "sonnet",
+   "dai_note": "冬ごもりの閑かな窓辺、物思いと火のぬくもり",
+   "left": "haiku",
+   "right": "fable"
+  },
+  {
+   "ban": 9,
+   "dai": "落葉満橋",
+   "yomi": "らくえふはしにみつ",
+   "bu": "冬",
+   "dai_by": "opus",
+   "dai_note": "橋を埋める落葉に、渡る人の絶えた初冬の寂しさを見る結題。",
+   "left": "sonnet",
+   "right": "opus"
+  },
+  {
+   "ban": 10,
+   "dai": "池水半氷",
+   "yomi": "いけみづなかばこほる",
+   "bu": "冬",
+   "dai_by": "fable",
+   "dai_note": "凍る所と凍らぬ所の境、水のゆらぎと氷の静まりとの取り合はせ",
+   "left": "opus",
+   "right": "fable"
+  },
+  {
+   "ban": 11,
+   "dai": "寄蝶恋",
+   "yomi": "ちょうによするこい",
+   "bu": "恋",
+   "dai_by": "sonnet",
+   "dai_note": "ひらひらと飛ぶ蝶に、定めなき心や移ろう思いを託す",
+   "left": "haiku",
+   "right": "haiku"
+  },
+  {
+   "ban": 12,
+   "dai": "寄絵恋",
+   "yomi": "ゑによするこひ",
+   "bu": "恋",
+   "dai_by": "fable",
+   "dai_note": "絵に描かれた姿、また描きとどめ得ぬ面ざしに寄せて思ひを述べる",
+   "left": "fable",
+   "right": "sonnet"
+  },
+  {
+   "ban": 13,
+   "dai": "寄氷恋",
+   "yomi": "こほりによするこひ",
+   "bu": "恋",
+   "dai_by": "opus",
+   "dai_note": "閉ざされ解けぬ氷に、心の隔てやいつか解ける思いを重ねる。",
+   "left": "sonnet",
+   "right": "fable"
+  },
+  {
+   "ban": 14,
+   "dai": "古硯に残る墨",
+   "yomi": "ふるすずりにのこるすみ",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "乾き残る墨の跡に、書きさした言葉や過ぎた歳月を思ふ新味の結題",
+   "left": "haiku",
+   "right": "opus"
+  },
+  {
+   "ban": 15,
+   "dai": "暮山樵歌",
+   "yomi": "ぼざんのせうか",
+   "bu": "雑",
+   "dai_by": "fable",
+   "dai_note": "夕暮の山路を下る樵の歌声を遠く聞く、山里の一日の終はり",
+   "left": "fable",
+   "right": "haiku"
+  },
+  {
+   "ban": 16,
+   "dai": "古道旅情",
+   "yomi": "こどうりょじょう",
+   "bu": "雑",
+   "dai_by": "sonnet",
+   "dai_note": "古い街道を行く旅の心細さと懐かしさ",
+   "left": "opus",
+   "right": "sonnet"
+  }
+ ]
+}
