@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI歌合</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="app">
+  <header>
+    <h1>AI歌合</h1>
+    <div id="tally"></div>
+    <div class="btns">
+      <button id="statsBtn" title="記録">記録</button>
+      <button id="resetBtn" title="やり直し">↺</button>
+    </div>
+  </header>
+
+  <section id="dais">
+    <div id="judges"></div>
+    <div id="hanshi" hidden></div>
+  </section>
+
+  <section id="daibar">
+    <button id="prev">◀</button>
+    <div id="daibox"><span id="ban"></span><span id="dai"></span><span id="daiyomi"></span></div>
+    <button id="next">▶</button>
+  </section>
+
+  <section id="field">
+    <div class="side left" data-side="left">
+      <div class="poet"><canvas width="16" height="17"></canvas><span class="name"></span></div>
+      <button class="card"><span class="mark">左</span><span class="waka"></span></button>
+      <div class="yomi"></div>
+    </div>
+    <div class="side right" data-side="right">
+      <div class="poet"><canvas width="16" height="17"></canvas><span class="name"></span></div>
+      <button class="card"><span class="mark">右</span><span class="waka"></span></button>
+      <div class="yomi"></div>
+    </div>
+  </section>
+
+  <nav id="strip"></nav>
+
+  <dialog id="stats">
+    <button id="statsClose">×</button>
+    <div id="statsBody"></div>
+  </dialog>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

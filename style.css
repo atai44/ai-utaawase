@@ -1,0 +1,91 @@
+:root{
+  --ink:#1b1626; --paper:#f3e9d2; --paper2:#e6d7b4; --gold:#d9a441;
+  --L:#c8372d; --Ld:#7d1f1c; --Lbg:#3a1518;
+  --R:#2f6fd0; --Rd:#1b3f86; --Rbg:#121f3d;
+  --px:4px;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--ink);color:var(--paper);
+  font-family:"DotGothic16","MS Gothic",monospace;font-size:16px}
+canvas{image-rendering:pixelated;image-rendering:crisp-edges}
+button{font:inherit;color:inherit;cursor:pointer}
+#app{max-width:860px;margin:0 auto;padding:10px 12px 28px}
+
+header{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+h1{font-size:22px;margin:0;font-weight:400;letter-spacing:.15em;color:var(--gold)}
+#tally{flex:1;display:flex;gap:14px;justify-content:center;font-size:15px;white-space:nowrap}
+#tally b{font-weight:400}
+#tally .l{color:#ff8a7a} #tally .r{color:#8ab8ff} #tally .k{opacity:.7;margin-right:4px}
+.btns{display:flex;gap:6px}
+.btns button,#daibar button,#statsClose{
+  background:var(--ink);border:var(--px) solid var(--paper2);padding:2px 10px;
+  box-shadow:var(--px) var(--px) 0 #000}
+.btns button:active,#daibar button:active{transform:translate(2px,2px);box-shadow:2px 2px 0 #000}
+
+/* judges' dais */
+#dais{margin-top:10px;background:
+  linear-gradient(#2a2238 0 70%,#5a4326 70% 76%,#8a6a3a 76% 100%);
+  border:var(--px) solid var(--gold);padding:12px 8px 0;position:relative}
+#judges{display:flex;justify-content:center;gap:clamp(18px,9vw,90px)}
+.judge{background:none;border:0;padding:0;display:flex;flex-direction:column;align-items:center;position:relative}
+.judge canvas{width:96px;height:auto;display:block}
+.judge .jname{font-size:12px;background:var(--ink);padding:0 6px;margin:2px 0 6px;border:2px solid var(--paper2)}
+.judge.sel .jname{background:var(--gold);color:var(--ink)}
+.judge .flag{position:absolute;top:-4px;right:-10px;width:28px;height:28px;line-height:24px;
+  text-align:center;font-size:16px;border:2px solid #000;color:#fff;visibility:hidden}
+.judge .flag.left{background:var(--L);visibility:visible}
+.judge .flag.right{background:var(--R);visibility:visible}
+.judge:disabled{cursor:default}
+#hanshi{background:var(--paper);color:var(--ink);margin:0 -8px;padding:10px 14px;
+  border-top:var(--px) solid var(--gold);line-height:1.7;font-size:15px}
+#hanshi .who{font-size:12px;margin-right:8px;padding:0 6px;color:#fff}
+#hanshi .who.left{background:var(--L)} #hanshi .who.right{background:var(--R)}
+
+#daibar{display:flex;align-items:center;gap:10px;margin:12px 0}
+#daibox{flex:1;text-align:center;background:var(--paper);color:var(--ink);padding:6px 8px;
+  border:var(--px) solid var(--gold);display:flex;gap:12px;justify-content:center;align-items:baseline;flex-wrap:wrap}
+#ban{font-size:13px} #dai{font-size:24px;letter-spacing:.1em} #daiyomi{font-size:12px;opacity:.7}
+
+#field{display:grid;grid-template-columns:1fr 1fr;gap:0;border:var(--px) solid var(--gold)}
+.side{padding:12px 10px 14px;display:flex;flex-direction:column;align-items:center;gap:8px;min-width:0}
+.side.left{background:var(--Lbg);border-right:2px solid var(--gold)}
+.side.right{background:var(--Rbg);border-left:2px solid var(--gold)}
+.poet{display:flex;flex-direction:column;align-items:center;height:106px}
+.poet canvas{width:80px;height:85px}
+.poet .name{font-size:13px;height:18px}
+.card{position:relative;width:100%;max-width:260px;height:440px;background:var(--paper);color:var(--ink);
+  border:var(--px) solid var(--paper2);box-shadow:var(--px) var(--px) 0 #000;padding:26px 10px 12px;
+  display:flex;justify-content:center}
+.left .card{border-color:var(--L)} .right .card{border-color:var(--R)}
+.card:not(:disabled):hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 #000}
+.card:disabled{cursor:default}
+.card .mark{position:absolute;top:-4px;left:-4px;width:26px;height:26px;line-height:24px;color:#fff;font-size:15px}
+.left .mark{background:var(--L)} .right .mark{background:var(--R)}
+.card .waka{writing-mode:vertical-rl;font-size:20px;line-height:2.2;letter-spacing:.08em;height:100%;text-align:start}
+.card.mine::after{content:"";position:absolute;inset:-10px;border:var(--px) dashed var(--gold);pointer-events:none}
+.card.won{background:#fff8dc}
+.card.won::before{content:"勝";position:absolute;bottom:-4px;right:-4px;width:26px;height:26px;line-height:24px;
+  background:var(--gold);color:var(--ink);font-size:15px}
+.yomi{font-size:12px;opacity:.75;text-align:center;line-height:1.5;min-height:3em}
+
+#strip{display:flex;gap:4px;justify-content:center;margin-top:12px;flex-wrap:wrap}
+#strip button{width:26px;height:26px;padding:0;font-size:12px;background:#2a2238;border:2px solid #4a4060;color:var(--paper)}
+#strip button.cur{border-color:var(--gold)}
+#strip button.left{background:var(--L)} #strip button.right{background:var(--R)}
+
+dialog{background:var(--ink);color:var(--paper);border:var(--px) solid var(--gold);max-width:min(680px,94vw);padding:16px}
+dialog::backdrop{background:#000a}
+#statsClose{float:right}
+table{border-collapse:collapse;margin:8px 0 18px;font-size:14px;width:100%}
+th,td{padding:3px 8px;text-align:center;border-bottom:2px solid #3a3050;white-space:nowrap}
+th{font-weight:400;color:var(--gold)}
+td:first-child,th:first-child{text-align:left}
+td canvas{width:32px;height:auto;vertical-align:middle;margin-right:6px}
+.dim{opacity:.5}
+
+@media(max-width:560px){
+  .card{height:400px;padding:26px 4px 8px}
+  .card .waka{font-size:18px}
+  .judge canvas{width:72px}
+  h1{font-size:18px}
+}
