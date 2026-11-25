@@ -103,7 +103,7 @@ function hiddenSprite(cv) { // generic cloaked silhouette so the head shape leak
 const $ = (s, el = document) => el.querySelector(s);
 const KEY = "ai-utaawase-picks-v2";
 const KANJI = ["", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十"];
-const kai = n => "第" + (n <= 10 ? KANJI[n] : n <= 19 ? "十" + KANJI[n - 10] : n) + "回";
+const kai = n => "第" + (n < 10 ? KANJI[n] : n < 100 ? (n >= 20 ? KANJI[Math.floor(n / 10)] : "") + "十" + KANJI[n % 10] : n) + "回";
 let D, R = [], ev = 0, cur = 0, picks = {}, openJudge = null;
 try { picks = JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) {}
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(picks)); } catch (e) {} };
