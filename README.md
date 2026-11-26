@@ -20,7 +20,7 @@
 | `dai_{判者}.json` | 題の案 |
 | `schedule.json` | 選ばれた十六題と組合せ |
 | `poems_{左右}_{model}.json` | 詠草（五句と読み） |
-| `judg_{判者}.json` | 判と判詞 |
+| `judg_{判者}.json` | 判と判詞（`judg_haiku.json` は後から加えた参考の判） |
 
 `data/utaawase.json` は **`complete` の回だけ** をまとめたもので、サイトはこれだけを読む。
 
@@ -35,3 +35,91 @@
 
 静的サイト（`index.html` / `style.css` / `app.js`）。GitHub Pages か `python3 -m http.server` で開く。
 好きな方の歌を選ぶと作者と判が明かされ、判者を押すと判詞が出る。集計と「記録」は自分が判じた番だけを数える。
+
+## 結果（ネタバレ注意）
+
+全三十一回・496番。サイトで自分で判じてみたい人は、先にそちらをどうぞ。
+
+Haiku は本戦の判者ではないが、後から同じ文面・同じ伏せ方で全回を判じさせた（`judg_haiku.json`）。本戦の勝敗とサイトには影響しない。
+
+### 判者別の勝率
+
+各モデルの歌を各判者が勝とした割合。どの判者も自分と同じモデルの歌をやや高く評価している。
+
+![判者別の勝率](figures/judge_ja.png)
+
+### モデル同士の対戦成績
+
+四判者の票の合計による（各組 62番、248票）。
+
+![対戦成績](figures/h2h_ja.png)
+
+### 対戦成績（自モデルの判を除く）
+
+対戦する二モデルと同じモデルの判者の票を除いたもの（各組 124票）。組ごとに残る判者が異なるので、マス同士の厳密な比較はできない。
+
+![対戦成績（自モデルの判を除く）](figures/h2h_noself_ja.png)
+
+---
+
+# AI Uta-awase (English)
+
+A record of repeated sixteen-round *uta-awase* (classical Japanese poetry contests) held with Claude subagents, and a site for viewing them.
+
+- Judges: Fable, Opus and Sonnet (one each)
+- Left and Right teams: Fable, Opus, Sonnet and Haiku on each side (eight poets)
+- Everything runs at effort = medium, with no personas
+- Topics are set in advance. The two sides compose independently, and judging is blind to authorship. No draws; the majority of the three judges decides.
+- Each judge proposes eight topics; sixteen are chosen, excluding any already used.
+- Matchups follow a 4×4 Latin square, so every Left poet meets every Right poet once.
+
+## Records
+
+`data/events/NN/` holds one contest. Files are added stage by stage.
+
+| File | Contents |
+|---|---|
+| `status.json` | Stage (`dai` → `poems` → `judging` → `complete`), seed, notes |
+| `prompts/*.txt` | The exact text given to judges and poets |
+| `dai_{judge}.json` | Proposed topics |
+| `schedule.json` | The sixteen chosen topics and the matchups |
+| `poems_{side}_{model}.json` | Poems (five lines and their readings) |
+| `judg_{judge}.json` | Verdicts and comments (`judg_haiku.json` is a reference verdict added afterwards) |
+
+`data/utaawase.json` collects **only `complete` contests**, and it is the only file the site reads.
+
+## If a run is interrupted (usage limits and so on)
+
+- A contest is atomic. It is published only when every poem and all three judges' verdicts are present and pass validation.
+- If any agent fails or hits a limit, that contest stays at its intermediate stage and is not published. No other model stands in.
+- `python3 scripts/event.py status` shows each contest's stage and the files still missing, which are the remaining jobs. Running only those with the same prompts resumes the contest.
+- Each completed contest is committed and pushed as it finishes.
+
+## Site
+
+A static site (`index.html` / `style.css` / `app.js`). Open it with GitHub Pages or `python3 -m http.server`.
+Pick the poem you prefer and the authors and verdicts are revealed; click a judge to read its comment. The tallies and the records dialog count only the rounds you have judged yourself.
+
+## Results (spoilers)
+
+31 contests, 496 rounds. If you want to judge for yourself on the site, do that first.
+
+Haiku was not a judge in the contests themselves, but afterwards it judged every contest from the same prompt and the same blind sheets (`judg_haiku.json`). This does not affect the published verdicts or the site.
+
+### Win rate by judge
+
+The share of each model's poems that each judge picked as the winner. Every judge rates poems by its own model somewhat higher.
+
+![Win rate by judge](figures/judge_en.png)
+
+### Head to head
+
+By total votes of the four judges (62 rounds per pair, 248 votes).
+
+![Head to head](figures/h2h_en.png)
+
+### Head to head, no self-judging
+
+Votes from judges of the same model as either poet are excluded (124 votes per pair). Each pair is left with a different two judges, so cells are not strictly comparable with one another.
+
+![Head to head, no self-judging](figures/h2h_noself_en.png)
