@@ -105,7 +105,7 @@ const KEY = "ai-utaawase-picks-v2";
 const KANJI = ["", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十"];
 const kai = n => "第" + (n < 10 ? KANJI[n] : n < 100 ? (n >= 20 ? KANJI[Math.floor(n / 10)] : "") + "十" + KANJI[n % 10] : n) + "回";
 // Where visitors' choices are sent (see scripts/collector.gs). Empty = nothing is recorded.
-const ENDPOINT = "";
+const ENDPOINT = "https://script.google.com/macros/s/AKfycbywRzryj16wp_ghw9c6wCkJWnQrNE4zEyfQFooE3xJRTFFWg1v7G8S5EVqIU-qTxp1Ehg/exec";
 const ME = "ai-utaawase-visitor-v1";
 let D, R = [], order = [], pos = 0, shownAt = 0, picks = {}, me = {}, openJudge = null;
 const store = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
