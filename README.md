@@ -35,6 +35,11 @@
 
 静的サイト（`index.html` / `style.css` / `app.js`）。GitHub Pages か `python3 -m http.server` で開く。
 好きな方の歌を選ぶと作者と判が明かされ、判者を押すと判詞が出る。集計と「記録」は自分が判じた番だけを数える。
+番は全回をまとめた中から、来訪者ごとに無作為の順で一つずつ出る（順は端末に保存され、再訪しても続きから）。
+
+### 来訪者の選択の記録
+
+`app.js` 冒頭の `ENDPOINT` が空なら何も送らない。`scripts/collector.gs`（Google スプレッドシートに付ける Apps Script）を手順どおりに置いてその URL を入れると、選ぶたびに一行ずつ記録される：時刻・端末ごとの乱数ID・番・左右・その人の何番目の選択か・表示から選択までの時間・ブラウザの言語。名前や IP などは送らない。集計では（来訪者, 番）ごとに最初の一行だけを使う。
 
 ## 結果（ネタバレ注意）
 
@@ -99,6 +104,11 @@ A record of repeated sixteen-round *uta-awase* (classical Japanese poetry contes
 
 A static site (`index.html` / `style.css` / `app.js`). Open it with GitHub Pages or `python3 -m http.server`.
 Pick the poem you prefer and the authors and verdicts are revealed; click a judge to read its comment. The tallies and the records dialog count only the rounds you have judged yourself.
+Rounds from all contests are pooled and shown one at a time in a random order that differs per visitor (the order is kept in the browser, so a return visit continues where it left off).
+
+### Recording visitors' choices
+
+Nothing is sent while `ENDPOINT` at the top of `app.js` is empty. Set up `scripts/collector.gs` (an Apps Script bound to a Google Sheet) as its header describes and put its URL there, and each choice is recorded as one row: time, a random per-browser ID, round, left/right, which choice of that visitor it was, time from display to choice, and browser language. No names or IP addresses are sent. For analysis, use only the first row per (visitor, round).
 
 ## Results (spoilers)
 

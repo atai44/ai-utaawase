@@ -94,3 +94,7 @@ td canvas{width:32px;height:auto;vertical-align:middle;margin-right:6px}
 #events button{padding:2px 8px;font-size:13px;background:#2a2238;border:2px solid #4a4060;color:var(--paper)}
 #events button.cur{border-color:var(--gold)}
 #events button.done{background:#4a4060}
+
+#note{margin-top:14px;text-align:center;font-size:12px;opacity:.55}
+#prev:disabled{opacity:.3;cursor:default}
+#ban:empty{display:none}

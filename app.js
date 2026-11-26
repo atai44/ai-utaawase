@@ -104,17 +104,39 @@ const $ = (s, el = document) => el.querySelector(s);
 const KEY = "ai-utaawase-picks-v2";
 const KANJI = ["", "一", "二", "三", "四", "五", "六", "七", "八", "九", "十"];
 const kai = n => "第" + (n < 10 ? KANJI[n] : n < 100 ? (n >= 20 ? KANJI[Math.floor(n / 10)] : "") + "十" + KANJI[n % 10] : n) + "回";
-let D, R = [], ev = 0, cur = 0, picks = {}, openJudge = null;
-try { picks = JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) {}
-const save = () => { try { localStorage.setItem(KEY, JSON.stringify(picks)); } catch (e) {} };
+// Where visitors' choices are sent (see scripts/collector.gs). Empty = nothing is recorded.
+const ENDPOINT = "";
+const ME = "ai-utaawase-visitor-v1";
+let D, R = [], order = [], pos = 0, shownAt = 0, picks = {}, me = {}, openJudge = null;
+const store = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} };
+const load = k => { try { return JSON.parse(localStorage.getItem(k)) || {}; } catch (e) { return {}; } };
+picks = load(KEY); me = load(ME);
+const uuid = () => crypto.randomUUID ? crypto.randomUUID() : "10000000-1000-4000-8000-100000000000".replace(/[018]/g, c => (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16));
+const newMe = () => { me = { id: uuid(), seed: Math.floor(Math.random() * 2 ** 31), sent: 0 }; store(ME, me); };
+if (!me.id) newMe();
+const save = () => store(KEY, picks);
 const pk = r => picks[r.key];
-const rounds = () => R.filter(r => r.ev === ev);
+// every visitor walks the whole pool in their own random order (stable across reloads)
+function shuffle() {
+  let a = me.seed >>> 0;
+  const rnd = () => { a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
+  order = R.slice();
+  for (let i = order.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [order[i], order[j]] = [order[j], order[i]]; }
+}
+function record(r, side) {
+  me.sent = (me.sent || 0) + 1; store(ME, me);
+  if (!ENDPOINT) return;
+  const body = JSON.stringify({ v: 1, visitor: me.id, round: r.key, pick: side, n: me.sent, ms: Math.round(performance.now() - shownAt), lang: navigator.language || "" });
+  try { fetch(ENDPOINT, { method: "POST", mode: "no-cors", keepalive: true, headers: { "Content-Type": "text/plain;charset=utf-8" }, body }).catch(() => {}); } catch (e) {}
+}
 const winner = r => r.judgments.filter(j => j.pick === "left").length * 2 > r.judgments.length ? "left" : "right";
 
 /* ---------- render ---------- */
 function render() {
-  const rs = rounds(), r = rs[cur], pick = pk(r), done = !!pick;
-  $("#ban").textContent = `${kai(r.ev)} 第${r.ban}番`;
+  const r = order[pos], pick = pk(r), done = !!pick;
+  if (render.shown !== r.key) { render.shown = r.key; shownAt = performance.now(); }
+  $("#ban").textContent = done ? `${kai(r.ev)} 第${r.ban}番` : "";
+  $("#prev").disabled = pos === 0;
   $("#dai").textContent = r.dai;
   $("#daiyomi").textContent = `${r.bu}・${r.yomi}`;
 
@@ -125,7 +147,7 @@ function render() {
     card.disabled = done;
     card.classList.toggle("mine", pick === side);
     card.classList.toggle("won", done && winner(r) === side);
-    card.onclick = () => { picks[r.key] = side; openJudge = null; save(); render(); };
+    card.onclick = () => { picks[r.key] = side; openJudge = null; save(); record(r, side); render(); };
     if (done) drawSprite($("canvas", el), p.model, side); else hiddenSprite($("canvas", el));
     $(".name", el).textContent = done ? NAMES[p.model] : "";
   }
@@ -152,22 +174,6 @@ function render() {
     const w = document.createElement("span"); w.className = "who " + jm.pick; w.textContent = jm.pick === "left" ? "左勝" : "右勝";
     H.append(w, document.createTextNode(jm.comment));
   }
-
-  const S = $("#strip"); S.innerHTML = "";
-  const E = $("#events"); E.innerHTML = "";
-  if (D.events.length > 1) D.events.forEach(e => {
-    const b = document.createElement("button"), n = R.filter(x => x.ev === e.id && pk(x)).length;
-    b.textContent = kai(e.id); b.className = (e.id === ev ? "cur " : "") + (n === e.rounds.length ? "done" : "");
-    b.onclick = () => { ev = e.id; cur = Math.max(0, rounds().findIndex(x => !pk(x))); openJudge = null; render(); };
-    E.append(b);
-  });
-  rs.forEach((x, i) => {
-    const b = document.createElement("button");
-    b.textContent = x.ban;
-    b.className = (i === cur ? "cur " : "") + (pk(x) ? winner(x) : "");
-    b.onclick = () => { cur = i; openJudge = null; render(); };
-    S.append(b);
-  });
 
   const seen = R.filter(pk);
   const c = (f) => seen.filter(f).length;
@@ -224,14 +230,16 @@ function stats() {
 fetch("data/utaawase.json").then(r => r.json()).then(d => {
   D = d;
   R = D.events.flatMap(e => e.rounds.map(r => ({ ...r, ev: e.id, key: e.id + "-" + r.ban })));
-  const first = R.find(x => !pk(x)) || R[0];
-  ev = first.ev; cur = rounds().indexOf(first);
-  const step = n => { const i = (R.indexOf(rounds()[cur]) + n + R.length) % R.length; ev = R[i].ev; cur = rounds().indexOf(R[i]); openJudge = null; render(); };
-  $("#prev").onclick = () => step(-1);
-  $("#next").onclick = () => step(1);
+  $("#note").hidden = !ENDPOINT;
+  shuffle();
+  const firstOpen = () => Math.max(0, order.findIndex(x => !pk(x)));
+  pos = firstOpen();
+  const go = i => { pos = Math.min(order.length - 1, Math.max(0, i)); openJudge = null; render(); };
+  $("#prev").onclick = () => go(pos - 1);
+  $("#next").onclick = () => go(pos + 1);
   $("#statsBtn").onclick = stats;
   $("#statsClose").onclick = () => $("#stats").close();
-  $("#resetBtn").onclick = () => { if (confirm("↺ ?")) { picks = {}; save(); ev = R[0].ev; cur = 0; openJudge = null; render(); } };
+  $("#resetBtn").onclick = () => { if (confirm("↺ ?")) { picks = {}; save(); me.seed = Math.floor(Math.random() * 2 ** 31); store(ME, me); shuffle(); pos = 0; openJudge = null; render(); } };
   document.addEventListener("keydown", e => { if (e.key === "ArrowLeft") $("#prev").click(); if (e.key === "ArrowRight") $("#next").click(); });
   render();
 });
